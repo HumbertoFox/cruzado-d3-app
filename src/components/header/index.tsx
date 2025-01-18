@@ -10,13 +10,13 @@ import {
 
 export default function HeaderComponent() {
     const headerLogoRef = useRef(null);
-    const headerInicioRef = useRef(null);
+    const headerStartRef = useRef(null);
     const headerHistoryRef = useRef(null);
     const headerGalleryRef = useRef(null);
 
     useEffect(() => {
         const headerLogo = headerLogoRef.current;
-        const headerInicio = headerInicioRef.current;
+        const headerStart = headerStartRef.current;
         const headerHistory = headerHistoryRef.current;
         const headerGallery = headerGalleryRef.current;
 
@@ -31,7 +31,7 @@ export default function HeaderComponent() {
             duration: 1.5,
             ease: 'power1.in'
         });
-        gsap.fromTo(headerInicio, {
+        gsap.fromTo(headerStart, {
             opacity: 0,
             x: -300
         }, {
@@ -75,7 +75,7 @@ export default function HeaderComponent() {
                 <ul className='flex gap-3'>
                     <li
                         className='hover:text-amber-700 duration-300 opacity-0'
-                        ref={headerInicioRef}
+                        ref={headerStartRef}
                     >
                         <Link
                             className='py-1 px-2'
