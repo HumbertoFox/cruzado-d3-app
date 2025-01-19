@@ -9,8 +9,12 @@
   border: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
-  --background: #171717;
+  --background: #12110f;
   --foreground: #ffffff;
 }
 

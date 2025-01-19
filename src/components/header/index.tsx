@@ -9,12 +9,14 @@ import {
 } from 'react';
 
 export default function HeaderComponent() {
+    const headerRef = useRef(null);
     const headerLogoRef = useRef(null);
     const headerStartRef = useRef(null);
     const headerHistoryRef = useRef(null);
     const headerGalleryRef = useRef(null);
 
     useEffect(() => {
+        const header = headerRef.current;
         const headerLogo = headerLogoRef.current;
         const headerStart = headerStartRef.current;
         const headerHistory = headerHistoryRef.current;
@@ -60,15 +62,47 @@ export default function HeaderComponent() {
             delay: 1,
             ease: 'power1.in'
         });
+
+        const handleScroll = () => {
+            if (window.scrollY > 0) {
+                gsap.to(header, {
+                    backgroundColor: '#12110f',
+                    duration: 0.3,
+                });
+                gsap.to(headerLogo, {
+                    width: 64,
+                    duration: 0.3,
+                });
+            } else {
+                gsap.to(header, {
+                    backgroundColor: 'transparent',
+                    duration: 0.3,
+                });
+                gsap.to(headerLogo, {
+                    width: 96,
+                    duration: 0.3,
+                });
+            };
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        handleScroll();
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
     }, []);
     return (
-        <header className='w-full flex justify-between items-center py-3 px-4'>
+        <header
+            className='fixed w-full max-w-screen-2xl top-0 flex justify-between items-center bg-[#12110f] py-3 px-4 z-10'
+            ref={headerRef}
+        >
             <Image
-                className='max-w-16 opacity-0'
+                className='max-w-24 opacity-0'
                 src={'/assets/d3.svg'}
                 alt='Logo Diablo 3'
-                width={100}
-                height={100}
+                width={120}
+                height={120}
                 ref={headerLogoRef}
             />
             <nav>
@@ -90,7 +124,7 @@ export default function HeaderComponent() {
                     >
                         <Link
                             className='py-1 px-2'
-                            href='#'
+                            href='#history'
                         >
                             História
                         </Link>
@@ -101,7 +135,7 @@ export default function HeaderComponent() {
                     >
                         <Link
                             className='py-1 px-2'
-                            href='#'
+                            href='#gallery'
                         >
                             Galeria
                         </Link>
