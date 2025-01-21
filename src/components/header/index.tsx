@@ -112,10 +112,10 @@ export default function HeaderComponent() {
                         ref={headerStartRef}
                     >
                         <Link
-                            className='py-1 px-2'
+                            className='button'
                             href='#'
                         >
-                            Inicio
+                            <span>Inicio</span>
                         </Link>
                     </li>
                     <li
@@ -123,10 +123,10 @@ export default function HeaderComponent() {
                         ref={headerHistoryRef}
                     >
                         <Link
-                            className='py-1 px-2'
+                            className='button'
                             href='#history'
                         >
-                            História
+                            <span>História</span>
                         </Link>
                     </li>
                     <li
@@ -134,10 +134,10 @@ export default function HeaderComponent() {
                         ref={headerGalleryRef}
                     >
                         <Link
-                            className='py-1 px-2'
-                            href='#gallery'
+                            className='button'
+                            href='#skills'
                         >
-                            Galeria
+                            <span>Habilidades</span>
                         </Link>
                     </li>
                 </ul>

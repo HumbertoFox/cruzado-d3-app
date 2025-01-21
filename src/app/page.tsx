@@ -1,5 +1,6 @@
 import HeaderComponent from '@/components/header';
 import HistoryComponent from '@/components/history';
+import SkillsComponent from '@/components/skills';
 import StartComponent from '@/components/start';
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
       <main className='min-w-full'>
         <StartComponent />
         <HistoryComponent />
+        <SkillsComponent />
       </main>
     </div>
   );

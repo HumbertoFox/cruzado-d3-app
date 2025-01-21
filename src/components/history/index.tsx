@@ -151,12 +151,12 @@ export default function HistoryComponent() {
     }, []);
     return (
         <section
-            className='w-full min-h-[calc(100vh-88px)] flex flex-col items-center justify-evenly'
+            className='w-full min-h-screen flex flex-col items-center pt-24'
             id='history'
             ref={historySectionRef}
         >
             <h2
-                className='font-serif font-bold italic text-lg md:text-xl pt-28 pb-12 lg:py-0 opacity-0'
+                className='font-serif font-bold italic text-lg md:text-xl pb-12 lg:pb-0 opacity-0'
                 ref={historyTitleRef}
             >
                 Histórico
