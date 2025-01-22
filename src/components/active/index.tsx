@@ -8,6 +8,15 @@ import {
     useRef,
     useState
 } from 'react';
+import RunesPunishComponent from '@/components/punish';
+import RunesSlashComponent from '@/components/slash';
+import RunesJusticeComponent from '@/components/justice';
+import RunesSmiteComponent from '@/components/smite';
+import RunesShieldBashComponent from '@/components/shieldbash';
+import RunesSweepAttackComponent from '@/components/sweepattack';
+import RunesBlessedHammerComponent from '@/components/blessedhammer';
+import RunesBlessedShieldComponent from '@/components/blessedshield';
+import RunesFistoftheHeavensComponent from '@/components/fistoftheheavens';
 
 export default function ActiveSkillsComponent() {
     const [isPrimary, setIsPrimary] = useState<boolean>(false);
@@ -202,72 +211,84 @@ export default function ActiveSkillsComponent() {
                         <span>Habilidades Primárias</span>
                     </button>
                     <div className={`${isPrimary ? 'flex' : 'hidden'} flex-col gap-5 cursor-default`}>
-                        <div className='flex gap-5'>
-                            <Image
-                                className='my-auto'
-                                src={'/assets/skills/x1_crusader_punish.png'}
-                                alt='Habilidade Punição'
-                                width={64}
-                                height={64}
-                            />
-                            <div className='flex flex-col gap-1 font-mono'>
-                                <p className='font-bold text-lg italic'>Punição</p>
-                                <p>Gera: <span className='text-green-500'>5</span> de Ira por ataque</p>
-                                <p>
-                                    Atinge o inimigo, causa dano equivalente a 335% do dano de arma e concede Sentidos Fortalecidos,
-                                    aumentando em <span className='text-green-500'>15%</span> a Chance de Bloqueio por <span className='text-green-500'>5</span> segundos.
-                                </p>
-                                <p>
-                                    Requer Escudo
-                                </p>
+                        <div className='flex flex-col'>
+                            <div className='flex gap-5 pb-4'>
+                                <Image
+                                    className='my-auto'
+                                    src={'/assets/skills/x1_crusader_punish.png'}
+                                    alt='Habilidade Punição'
+                                    width={64}
+                                    height={64}
+                                />
+                                <div className='flex flex-col gap-1 font-mono'>
+                                    <p className='font-bold text-lg italic'>Punição</p>
+                                    <p>Gera: <span className='text-green-500'>5</span> de Ira por ataque</p>
+                                    <p>
+                                        Atinge o inimigo, causa dano equivalente a
+                                        <span className='text-green-500'> 335% </span>do dano de arma e concede Sentidos Fortalecidos, aumentando em
+                                        <span className='text-green-500'> 15% </span>a Chance de Bloqueio por
+                                        <span className='text-green-500'> 5 </span>segundos.
+                                    </p>
+                                    <p>Requer Escudo</p>
+                                </div>
                             </div>
+                            <RunesPunishComponent />
                         </div>
-                        <div className='flex gap-5'>
-                            <Image
-                                className='my-auto'
-                                src={'/assets/skills/x1_crusader_slash.png'}
-                                alt='Habilidade Talho'
-                                width={64}
-                                height={64}
-                            />
-                            <div className='flex flex-col gap-1 font-mono'>
-                                <p className='font-bold text-lg italic'>Talho</p>
-                                <p>Gera: <span className='text-green-500'>5</span> de Ira por ataque</p>
-                                <p>Incendeia o ar à sua frente, causando dano Ígneo equivalente a <span className='text-green-500'>230%</span> do dano de arma.</p>
+                        <div className='flex flex-col'>
+                            <div className='flex gap-5 pb-4'>
+                                <Image
+                                    className='my-auto'
+                                    src={'/assets/skills/x1_crusader_slash.png'}
+                                    alt='Habilidade Talho'
+                                    width={64}
+                                    height={64}
+                                />
+                                <div className='flex flex-col gap-1 font-mono'>
+                                    <p className='font-bold text-lg italic'>Talho</p>
+                                    <p>Gera: <span className='text-green-500'>5</span> de Ira por ataque</p>
+                                    <p>Incendeia o ar à sua frente, causando dano Ígneo equivalente a <span className='text-green-500'>230%</span> do dano de arma.</p>
+                                </div>
                             </div>
+                            <RunesSlashComponent />
                         </div>
-                        <div className='flex gap-5'>
-                            <Image
-                                className='my-auto'
-                                src={'/assets/skills/x1_crusader_smite.png'}
-                                alt='Habilidade Castigar'
-                                width={64}
-                                height={64}
-                            />
-                            <div className='flex flex-col gap-1 font-mono'>
-                                <p className='font-bold text-lg italic'>Castigar</p>
-                                <p>Gera: <span className='text-green-500'>5</span> de Ira por ataque</p>
-                                <p>
-                                    Castiga os inimigos num raio de <span className='text-green-500'>30</span> metros de distância com correntes sagradas,
-                                    causando dano Sagrado equivalente a <span className='text-green-500'>175%</span> do dano de arma. As correntes se partem e acertam <span className='text-green-500'>3</span>
-                                    inimigos em um raio de <span className='text-green-500'>20</span> metros,
-                                    causando dano Sagrado equivalente a <span className='text-green-500'>150%</span> do dano de arma cada.
-                                </p>
+                        <div className='flex flex-col'>
+                            <div className='flex gap-5 pb-4'>
+                                <Image
+                                    className='my-auto'
+                                    src={'/assets/skills/x1_crusader_smite.png'}
+                                    alt='Habilidade Castigar'
+                                    width={64}
+                                    height={64}
+                                />
+                                <div className='flex flex-col gap-1 font-mono'>
+                                    <p className='font-bold text-lg italic'>Castigar</p>
+                                    <p>Gera: <span className='text-green-500'>5</span> de Ira por ataque</p>
+                                    <p>
+                                        Castiga os inimigos num raio de<span className='text-green-500'> 30 </span>metros de distância com correntes sagradas,
+                                        causando dano Sagrado equivalente a<span className='text-green-500'> 175% </span>do dano de arma. As correntes se partem e acertam
+                                        <span className='text-green-500'> 3 </span>inimigos em um raio de<span className='text-green-500'> 20 </span>metros,
+                                        causando dano Sagrado equivalente a<span className='text-green-500'> 150% </span>do dano de arma cada.
+                                    </p>
+                                </div>
                             </div>
+                            <RunesSmiteComponent />
                         </div>
-                        <div className='flex gap-5'>
-                            <Image
-                                className='my-auto'
-                                src={'/assets/skills/x1_crusader_justice.png'}
-                                alt='Habilidade Justiça'
-                                width={64}
-                                height={64}
-                            />
-                            <div className='flex flex-col gap-1 font-mono'>
-                                <p className='font-bold text-lg italic'>Justiça</p>
-                                <p>Gera: <span className='text-green-500'>5</span> de Ira por ataque</p>
-                                <p>Arremessa um martelo da justiça nos inimigos, causando <span className='text-green-500'>245%</span> de dano de arma.</p>
+                        <div className='flex flex-col'>
+                            <div className='flex gap-5 pb-4'>
+                                <Image
+                                    className='my-auto'
+                                    src={'/assets/skills/x1_crusader_justice.png'}
+                                    alt='Habilidade Justiça'
+                                    width={64}
+                                    height={64}
+                                />
+                                <div className='flex flex-col gap-1 font-mono'>
+                                    <p className='font-bold text-lg italic'>Justiça</p>
+                                    <p>Gera: <span className='text-green-500'>5</span> de Ira por ataque</p>
+                                    <p>Arremessa um martelo da justiça nos inimigos, causando <span className='text-green-500'>245%</span> de dano de arma.</p>
+                                </div>
                             </div>
+                            <RunesJusticeComponent />
                         </div>
                     </div>
                 </div>
@@ -284,97 +305,112 @@ export default function ActiveSkillsComponent() {
                         <span>Habilidades Secundárias</span>
                     </button>
                     <div className={`${isSecondary ? 'flex' : 'hidden'} flex-col gap-5 cursor-default`}>
-                        <div className='flex gap-5'>
-                            <Image
-                                className='my-auto'
-                                src={'/assets/skills/x1_crusader_shieldbash2.png'}
-                                alt='Habilidade Esmagamento com Escudo'
-                                width={64}
-                                height={64}
-                            />
-                            <div className='flex flex-col gap-1 font-mono'>
-                                <p className='font-bold text-lg italic'>Esmagamento com Escudo</p>
-                                <p>Custa: <span className='text-green-500'>30</span> de Ira</p>
-                                <p>
-                                    Investe contra o inimigo, atingindo o alvo e todos os inimigos próximos.
-                                    Causa <span className='text-green-500'>700%</span> do dano de arma mais <span className='text-green-500'>300% </span>
-                                    da Chance de Bloqueio do seu escudo como dano Sagrado.
-                                </p>
-                                <p>Requer Escudo</p>
+                        <div className='flex flex-col'>
+                            <div className='flex gap-5 pb-4'>
+                                <Image
+                                    className='my-auto'
+                                    src={'/assets/skills/x1_crusader_shieldbash2.png'}
+                                    alt='Habilidade Esmagamento com Escudo'
+                                    width={64}
+                                    height={64}
+                                />
+                                <div className='flex flex-col gap-1 font-mono'>
+                                    <p className='font-bold text-lg italic'>Esmagamento com Escudo</p>
+                                    <p>Custa: <span className='text-green-500'>30</span> de Ira</p>
+                                    <p>
+                                        Investe contra o inimigo, atingindo o alvo e todos os inimigos próximos. Causa
+                                        <span className='text-green-500'> 700% </span>do dano de arma mais
+                                        <span className='text-green-500'> 300% </span>da Chance de Bloqueio do seu escudo como dano Sagrado.
+                                    </p>
+                                    <p>Requer Escudo</p>
+                                </div>
                             </div>
+                            <RunesShieldBashComponent />
                         </div>
-                        <div className='flex gap-5'>
-                            <Image
-                                className='my-auto'
-                                src={'/assets/skills/x1_crusader_sweepattack.png'}
-                                alt='Habilidade Ataque Amplo'
-                                width={64}
-                                height={64}
-                            />
-                            <div className='flex flex-col gap-1 font-mono'>
-                                <p className='font-bold text-lg italic'>Ataque Amplo</p>
-                                <p>Custa: <span className='text-green-500'>20</span> de Ira</p>
-                                <p>
-                                    Golpeia em arco com um mangual místico, atingindo todos os inimigos a até <span className='text-green-500'>18</span> metros à sua
-                                    frente e causando <span className='text-green-500'>480%</span> do dano de arma.
-                                </p>
-                                <p>Requer Arma</p>
+                        <div className='flex flex-col'>
+                            <div className='flex gap-5 pb-4'>
+                                <Image
+                                    className='my-auto'
+                                    src={'/assets/skills/x1_crusader_sweepattack.png'}
+                                    alt='Habilidade Ataque Amplo'
+                                    width={64}
+                                    height={64}
+                                />
+                                <div className='flex flex-col gap-1 font-mono'>
+                                    <p className='font-bold text-lg italic'>Ataque Amplo</p>
+                                    <p>Custa: <span className='text-green-500'>20</span> de Ira</p>
+                                    <p>
+                                        Golpeia em arco com um mangual místico, atingindo todos os inimigos a até <span className='text-green-500'>18</span> metros à sua
+                                        frente e causando <span className='text-green-500'>480%</span> do dano de arma.
+                                    </p>
+                                    <p>Requer Arma</p>
+                                </div>
                             </div>
+                            <RunesSweepAttackComponent />
                         </div>
-                        <div className='flex gap-5'>
-                            <Image
-                                className='my-auto'
-                                src={'/assets/skills/x1_crusader_blessedhammer.png'}
-                                alt='Habilidade Martelo Abençoado'
-                                width={64}
-                                height={64}
-                            />
-                            <div className='flex flex-col gap-1 font-mono'>
-                                <p className='font-bold text-lg italic'>Martelo Abençoado</p>
-                                <p>Custa: <span className='text-green-500'>10</span> de Ira</p>
-                                <p>
-                                    Evoca um martelo abençoado que gira ao redor de você, causando dano Sagrado equivalente a
-                                    <span className='text-green-500'> 320%</span> do dano de arma a todos os inimigos que acerta.
-                                </p>
+                        <div className='flex flex-col'>
+                            <div className='flex gap-5 pb-4'>
+                                <Image
+                                    className='my-auto'
+                                    src={'/assets/skills/x1_crusader_blessedhammer.png'}
+                                    alt='Habilidade Martelo Abençoado'
+                                    width={64}
+                                    height={64}
+                                />
+                                <div className='flex flex-col gap-1 font-mono'>
+                                    <p className='font-bold text-lg italic'>Martelo Abençoado</p>
+                                    <p>Custa: <span className='text-green-500'>10</span> de Ira</p>
+                                    <p>
+                                        Evoca um martelo abençoado que gira ao redor de você, causando dano Sagrado equivalente a
+                                        <span className='text-green-500'> 320%</span> do dano de arma a todos os inimigos que acerta.
+                                    </p>
+                                </div>
                             </div>
+                            <RunesBlessedHammerComponent />
                         </div>
-                        <div className='flex gap-5'>
-                            <Image
-                                className='my-auto'
-                                src={'/assets/skills/x1_crusader_blessedshield.png'}
-                                alt='Habilidade Escudo Abençoado'
-                                width={64}
-                                height={64}
-                            />
-                            <div className='flex flex-col gap-1 font-mono'>
-                                <p className='font-bold text-lg italic'>Escudo Abençoado</p>
-                                <p>Custa: <span className='text-green-500'>20</span> de Ira</p>
-                                <p>
-                                    Atira seu escudo, causando <span className='text-green-500'>430%</span> do dano de arma como dano Sagrado mais
-                                    <span className='text-green-500'> 250% </span>da Chance de Bloqueio total do escudo como dano Sagrado.
-                                    O escudo ricocheteará em <span className='text-green-500'>3</span> inimigos próximos.
-                                </p>
-                                <p>Requer Escudo</p>
+                        <div className='flex flex-col'>
+                            <div className='flex gap-5 pb-4'>
+                                <Image
+                                    className='my-auto'
+                                    src={'/assets/skills/x1_crusader_blessedshield.png'}
+                                    alt='Habilidade Escudo Abençoado'
+                                    width={64}
+                                    height={64}
+                                />
+                                <div className='flex flex-col gap-1 font-mono'>
+                                    <p className='font-bold text-lg italic'>Escudo Abençoado</p>
+                                    <p>Custa: <span className='text-green-500'>20</span> de Ira</p>
+                                    <p>
+                                        Atira seu escudo, causando <span className='text-green-500'>430%</span> do dano de arma como dano Sagrado mais
+                                        <span className='text-green-500'> 250% </span>da Chance de Bloqueio total do escudo como dano Sagrado.
+                                        O escudo ricocheteará em <span className='text-green-500'>3</span> inimigos próximos.
+                                    </p>
+                                    <p>Requer Escudo</p>
+                                </div>
                             </div>
+                            <RunesBlessedShieldComponent />
                         </div>
-                        <div className='flex gap-5'>
-                            <Image
-                                className='my-auto'
-                                src={'/assets/skills/x1_crusader_fistoftheheavens.png'}
-                                alt='Habilidade Punho do Paraíso'
-                                width={64}
-                                height={64}
-                            />
-                            <div className='flex flex-col gap-1 font-mono'>
-                                <p className='font-bold text-lg italic'>Punho do Paraíso</p>
-                                <p>Custa: <span className='text-green-500'>30</span> de Ira</p>
-                                <p>
-                                    Evoca dos céus um pilar elétrico que explode, causando dano Elétrico equivalente a
-                                    <span className='text-green-500'> 545% </span>do dano de arma a qualquer inimigo num raio de <span className='text-green-500'>8</span> metros.
-                                    A explosão cria <span className='text-green-500'>6</span> projéteis carregados que se espalham,
-                                    causando <span className='text-green-500'>255%</span> do dano de arma como Elétrico.
-                                </p>
+                        <div className='flex flex-col'>
+                            <div className='flex gap-5 pb-4'>
+                                <Image
+                                    className='my-auto'
+                                    src={'/assets/skills/x1_crusader_fistoftheheavens.png'}
+                                    alt='Habilidade Punho do Paraíso'
+                                    width={64}
+                                    height={64}
+                                />
+                                <div className='flex flex-col gap-1 font-mono'>
+                                    <p className='font-bold text-lg italic'>Punho do Paraíso</p>
+                                    <p>Custa: <span className='text-green-500'>30</span> de Ira</p>
+                                    <p>
+                                        Evoca dos céus um pilar elétrico que explode, causando dano Elétrico equivalente a
+                                        <span className='text-green-500'> 545% </span>do dano de arma a qualquer inimigo num raio de <span className='text-green-500'>8</span> metros.
+                                        A explosão cria <span className='text-green-500'>6</span> projéteis carregados que se espalham,
+                                        causando <span className='text-green-500'>255%</span> do dano de arma como Elétrico.
+                                    </p>
+                                </div>
                             </div>
+                            <RunesFistoftheHeavensComponent />
                         </div>
                     </div>
                 </div>

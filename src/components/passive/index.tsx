@@ -707,12 +707,14 @@ export default function PassiveSkillsComponent() {
                         </span>
                     </button>
                     <div className={`${isHeavenlyStrength ? 'flex' : 'hidden'} flex-col items-center gap-5 mt-8`}>
-                        <Image
-                            src={'/assets/skillsp/x1_crusader_passive_heavenlystrength.png'}
-                            alt='Habilidade Passiva Força do Paraíso'
-                            width={64}
-                            height={64}
-                        />
+                        <div className='w-[81px] h-[81px] flex justify-center items-center bg-[url("/assets/trait-64.png")] bg-right-top hover:bg-right-bottom'>
+                            <Image
+                                src={'/assets/skillsp/x1_crusader_passive_heavenlystrength.png'}
+                                alt='Habilidade Passiva Força do Paraíso'
+                                width={64}
+                                height={64}
+                            />
+                        </div>
                         <div className='flex flex-col font-mono text-center'>
                             <p className='italic'>Requer Level <strong>10</strong></p>
                             <p>Você pode empunhar uma <span className='text-green-500'>arma de duas mãos</span> com a mão principal enquanto empunha um escudo na mão secundária.</p>
@@ -733,12 +735,14 @@ export default function PassiveSkillsComponent() {
                         <span>Fervor</span>
                     </button>
                     <div className={`${isFervor ? 'flex' : 'hidden'} flex-col items-center gap-5 mt-8`}>
-                        <Image
-                            src={'/assets/skillsp/x1_crusader_passive_fervor.png'}
-                            alt='Habilidade Passiva Fervor'
-                            width={64}
-                            height={64}
-                        />
+                        <div className='w-[81px] h-[81px] flex justify-center items-center bg-[url("/assets/trait-64.png")] bg-right-top hover:bg-right-bottom'>
+                            <Image
+                                src={'/assets/skillsp/x1_crusader_passive_fervor.png'}
+                                alt='Habilidade Passiva Fervor'
+                                width={64}
+                                height={64}
+                            />
+                        </div>
                         <div className='flex flex-col font-mono text-center'>
                             <p className='italic'>Requer Level <strong>10</strong></p>
                             <p>
@@ -761,12 +765,14 @@ export default function PassiveSkillsComponent() {
                         <span>Vigilante</span>
                     </button>
                     <div className={`${isVigilant ? 'flex' : 'hidden'} flex-col items-center gap-5 mt-8`}>
-                        <Image
-                            src={'/assets/skillsp/x1_crusader_passive_vigilant.png'}
-                            alt='Habilidade Passiva Vigilante'
-                            width={64}
-                            height={64}
-                        />
+                        <div className='w-[81px] h-[81px] flex justify-center items-center bg-[url("/assets/trait-64.png")] bg-right-top hover:bg-right-bottom'>
+                            <Image
+                                src={'/assets/skillsp/x1_crusader_passive_vigilant.png'}
+                                alt='Habilidade Passiva Vigilante'
+                                width={64}
+                                height={64}
+                            />
+                        </div>
                         <div className='flex flex-col font-mono text-center'>
                             <p className='italic'>Requer Level <strong>13</strong></p>
                             <p>Aumenta a regeneração total de Vida em <span className='text-green-500'>2682</span>.</p>
@@ -787,12 +793,14 @@ export default function PassiveSkillsComponent() {
                         <span>Retidão</span>
                     </button>
                     <div className={`${isRighteousness ? 'flex' : 'hidden'} flex-col items-center gap-5 mt-8`}>
-                        <Image
-                            src={'/assets/skillsp/x1_crusader_passive_righteousness.png'}
-                            alt='Habilidade Passiva Retidão'
-                            width={64}
-                            height={64}
-                        />
+                        <div className='w-[81px] h-[81px] flex justify-center items-center bg-[url("/assets/trait-64.png")] bg-right-top hover:bg-right-bottom'>
+                            <Image
+                                src={'/assets/skillsp/x1_crusader_passive_righteousness.png'}
+                                alt='Habilidade Passiva Retidão'
+                                width={64}
+                                height={64}
+                            />
+                        </div>
                         <div className='flex flex-col font-mono text-center'>
                             <p className='italic'>Requer Level <strong>16</strong></p>
                             <p>Suas habilidades primárias geram <span className='text-green-500'>3</span> de Ira adicional.</p>
@@ -813,12 +821,14 @@ export default function PassiveSkillsComponent() {
                         <span>Intransponível</span>
                     </button>
                     <div className={`${isInsurmountable ? 'flex' : 'hidden'} flex-col items-center gap-5 mt-8`}>
-                        <Image
-                            src={'/assets/skillsp/x1_crusader_passive_insurmountable.png'}
-                            alt='Habilidade Passiva Intransponível'
-                            width={64}
-                            height={64}
-                        />
+                        <div className='w-[81px] h-[81px] flex justify-center items-center bg-[url("/assets/trait-64.png")] bg-right-top hover:bg-right-bottom'>
+                            <Image
+                                src={'/assets/skillsp/x1_crusader_passive_insurmountable.png'}
+                                alt='Habilidade Passiva Intransponível'
+                                width={64}
+                                height={64}
+                            />
+                        </div>
                         <div className='flex flex-col font-mono text-center'>
                             <p className='italic'>Requer Level <strong>20</strong></p>
                             <p>Bloquear um ataque gera <span className='text-green-500'>6</span> de Ira.</p>
@@ -838,12 +848,14 @@ export default function PassiveSkillsComponent() {
                         <span>Fanatismo</span>
                     </button>
                     <div className={`${isFanaticism ? 'flex' : 'hidden'} flex-col items-center gap-5 mt-8`}>
-                        <Image
-                            src={'/assets/skillsp/x1_crusader_passive_nephalemmajesty.png'}
-                            alt='Habilidade Passiva Fanatismo'
-                            width={64}
-                            height={64}
-                        />
+                        <div className='w-[81px] h-[81px] flex justify-center items-center bg-[url("/assets/trait-64.png")] bg-right-top hover:bg-right-bottom'>
+                            <Image
+                                src={'/assets/skillsp/x1_crusader_passive_nephalemmajesty.png'}
+                                alt='Habilidade Passiva Fanatismo'
+                                width={64}
+                                height={64}
+                            />
+                        </div>
                         <div className='flex flex-col font-mono text-center'>
                             <p className='italic'>Requer Level <strong>20</strong></p>
                             <p>
@@ -865,12 +877,14 @@ export default function PassiveSkillsComponent() {
                         <span>Indestrutível</span>
                     </button>
                     <div className={`${isIndestructible ? 'flex' : 'hidden'} flex-col items-center gap-5 mt-8`}>
-                        <Image
-                            src={'/assets/skillsp/x1_crusader_passive_indestructible.png'}
-                            alt='Habilidade Passiva Insdestrutível'
-                            width={64}
-                            height={64}
-                        />
+                        <div className='w-[81px] h-[81px] flex justify-center items-center bg-[url("/assets/trait-64.png")] bg-right-top hover:bg-right-bottom'>
+                            <Image
+                                src={'/assets/skillsp/x1_crusader_passive_indestructible.png'}
+                                alt='Habilidade Passiva Insdestrutível'
+                                width={64}
+                                height={64}
+                            />
+                        </div>
                         <div className='flex flex-col font-mono text-center'>
                             <p className='italic'>Requer Level <strong>25</strong></p>
                             <p>
@@ -895,12 +909,14 @@ export default function PassiveSkillsComponent() {
                         <span>Causa Sagrada</span>
                     </button>
                     <div className={`${isHolyCause ? 'flex' : 'hidden'} flex-col items-center gap-5 mt-8`}>
-                        <Image
-                            src={'/assets/skillsp/x1_crusader_passive_holycause.png'}
-                            alt='Habilidade Passiva Causa Sagrada'
-                            width={64}
-                            height={64}
-                        />
+                        <div className='w-[81px] h-[81px] flex justify-center items-center bg-[url("/assets/trait-64.png")] bg-right-top hover:bg-right-bottom'>
+                            <Image
+                                src={'/assets/skillsp/x1_crusader_passive_holycause.png'}
+                                alt='Habilidade Passiva Causa Sagrada'
+                                width={64}
+                                height={64}
+                            />
+                        </div>
                         <div className='flex flex-col font-mono text-center'>
                             <p className='italic'>Requer Level <strong>27</strong></p>
                             <p>Aumenta em <span className='text-green-500'>10%</span> o dano que sua arma causa.</p>
@@ -923,12 +939,14 @@ export default function PassiveSkillsComponent() {
                         <span>Irado</span>
                     </button>
                     <div className={`${isWrathful ? 'flex' : 'hidden'} flex-col items-center gap-5 mt-8`}>
-                        <Image
-                            src={'/assets/skillsp/x1_crusader_passive_wrathful.png'}
-                            alt='Habilidade Passiva Irado'
-                            width={64}
-                            height={64}
-                        />
+                        <div className='w-[81px] h-[81px] flex justify-center items-center bg-[url("/assets/trait-64.png")] bg-right-top hover:bg-right-bottom'>
+                            <Image
+                                src={'/assets/skillsp/x1_crusader_passive_wrathful.png'}
+                                alt='Habilidade Passiva Irado'
+                                width={64}
+                                height={64}
+                            />
+                        </div>
                         <div className='flex flex-col font-mono text-center'>
                             <p className='italic'>Requer Level <strong>30</strong></p>
                             <p>Cada ponto de Ira gasto cura <span className='text-green-500'>1341</span> da sua Vida.</p>
@@ -951,12 +969,14 @@ export default function PassiveSkillsComponent() {
                         <span>Fortaleza Divina</span>
                     </button>
                     <div className={`${isDivineFortress ? 'flex' : 'hidden'} flex-col items-center gap-5 mt-8`}>
-                        <Image
-                            src={'/assets/skillsp/x1_crusader_passive_divinefortress.png'}
-                            alt='Habilidade Passiva Fortaleza Divina'
-                            width={64}
-                            height={64}
-                        />
+                        <div className='w-[81px] h-[81px] flex justify-center items-center bg-[url("/assets/trait-64.png")] bg-right-top hover:bg-right-bottom'>
+                            <Image
+                                src={'/assets/skillsp/x1_crusader_passive_divinefortress.png'}
+                                alt='Habilidade Passiva Fortaleza Divina'
+                                width={64}
+                                height={64}
+                            />
+                        </div>
                         <div className='flex flex-col font-mono text-center'>
                             <p className='italic'>Requer Level <strong>30</strong></p>
                             <p>
@@ -978,12 +998,14 @@ export default function PassiveSkillsComponent() {
                         <span>Lorde Comandante</span>
                     </button>
                     <div className={`${isLordCommander ? 'flex' : 'hidden'} flex-col items-center gap-5 mt-8`}>
-                        <Image
-                            src={'/assets/skillsp/x1_crusader_passive_lordcommander.png'}
-                            alt='Habilidade Passiva Lorde Comandante'
-                            width={64}
-                            height={64}
-                        />
+                        <div className='w-[81px] h-[81px] flex justify-center items-center bg-[url("/assets/trait-64.png")] bg-right-top hover:bg-right-bottom'>
+                            <Image
+                                src={'/assets/skillsp/x1_crusader_passive_lordcommander.png'}
+                                alt='Habilidade Passiva Lorde Comandante'
+                                width={64}
+                                height={64}
+                            />
+                        </div>
                         <div className='flex flex-col font-mono text-center'>
                             <p className='italic'>Requer Level <strong>35</strong></p>
                             <p>
@@ -1006,12 +1028,14 @@ export default function PassiveSkillsComponent() {
                         <span>Manter Posição</span>
                     </button>
                     <div className={`${isHoldYourGround ? 'flex' : 'hidden'} flex-col items-center gap-5 mt-8`}>
-                        <Image
-                            src={'/assets/skillsp/x1_crusader_passive_holdyourground.png'}
-                            alt='Habilidade Passiva Manter Posição'
-                            width={64}
-                            height={64}
-                        />
+                        <div className='w-[81px] h-[81px] flex justify-center items-center bg-[url("/assets/trait-64.png")] bg-right-top hover:bg-right-bottom'>
+                            <Image
+                                src={'/assets/skillsp/x1_crusader_passive_holdyourground.png'}
+                                alt='Habilidade Passiva Manter Posição'
+                                width={64}
+                                height={64}
+                            />
+                        </div>
                         <div className='flex flex-col font-mono text-center'>
                             <p className='italic'>Requer Level <strong>40</strong></p>
                             <p>
@@ -1033,12 +1057,14 @@ export default function PassiveSkillsComponent() {
                         <span>O Longo Braço da Lei</span>
                     </button>
                     <div className={`${isLongArmoftheLaw ? 'flex' : 'hidden'} flex-col items-center gap-5 mt-8`}>
-                        <Image
-                            src={'/assets/skillsp/x1_crusader_passive_longarmofthelaw.png'}
-                            alt='Habilidade Passiva O Longo Braço da Lei'
-                            width={64}
-                            height={64}
-                        />
+                        <div className='w-[81px] h-[81px] flex justify-center items-center bg-[url("/assets/trait-64.png")] bg-right-top hover:bg-right-bottom'>
+                            <Image
+                                src={'/assets/skillsp/x1_crusader_passive_longarmofthelaw.png'}
+                                alt='Habilidade Passiva O Longo Braço da Lei'
+                                width={64}
+                                height={64}
+                            />
+                        </div>
                         <div className='flex flex-col font-mono text-center'>
                             <p className='italic'>Requer Level <strong>45</strong></p>
                             <p>
@@ -1060,12 +1086,14 @@ export default function PassiveSkillsComponent() {
                         <span>Dama de Ferro</span>
                     </button>
                     <div className={`${isIronMaiden ? 'flex' : 'hidden'} flex-col items-center gap-5 mt-8`}>
-                        <Image
-                            src={'/assets/skillsp/x1_crusader_passive_ironmaiden.png'}
-                            alt='Habilidade Passiva Dama de Ferro'
-                            width={64}
-                            height={64}
-                        />
+                        <div className='w-[81px] h-[81px] flex justify-center items-center bg-[url("/assets/trait-64.png")] bg-right-top hover:bg-right-bottom'>
+                            <Image
+                                src={'/assets/skillsp/x1_crusader_passive_ironmaiden.png'}
+                                alt='Habilidade Passiva Dama de Ferro'
+                                width={64}
+                                height={64}
+                            />
+                        </div>
                         <div className='flex flex-col font-mono text-center'>
                             <p className='italic'>Requer Level <strong>50</strong></p>
                             <p>Seus Espinhos aumentam em <span className='text-green-500'>50%</span>.</p>
@@ -1085,12 +1113,14 @@ export default function PassiveSkillsComponent() {
                         <span>Renovação</span>
                     </button>
                     <div className={`${isRenewal ? 'flex' : 'hidden'} flex-col items-center gap-5 mt-8`}>
-                        <Image
-                            src={'/assets/skillsp/x1_crusader_passive_renewal.png'}
-                            alt='Habilidade Passiva Renovação'
-                            width={64}
-                            height={64}
-                        />
+                        <div className='w-[81px] h-[81px] flex justify-center items-center bg-[url("/assets/trait-64.png")] bg-right-top hover:bg-right-bottom'>
+                            <Image
+                                src={'/assets/skillsp/x1_crusader_passive_renewal.png'}
+                                alt='Habilidade Passiva Renovação'
+                                width={64}
+                                height={64}
+                            />
+                        </div>
                         <div className='flex flex-col font-mono text-center'>
                             <p className='italic'>Requer Level <strong>55</strong></p>
                             <p>Sempre que bloqueia, você recebe <span className='text-green-500'>16.093</span> de Vida.</p>
@@ -1110,12 +1140,14 @@ export default function PassiveSkillsComponent() {
                         <span>Veste de Gala</span>
                     </button>
                     <div className={`${isFinery ? 'flex' : 'hidden'} flex-col items-center gap-5 mt-8`}>
-                        <Image
-                            src={'/assets/skillsp/x1_crusader_passive_finery.png'}
-                            alt='Habilidade Passiva Veste de Gala'
-                            width={64}
-                            height={64}
-                        />
+                        <div className='w-[81px] h-[81px] flex justify-center items-center bg-[url("/assets/trait-64.png")] bg-right-top hover:bg-right-bottom'>
+                            <Image
+                                src={'/assets/skillsp/x1_crusader_passive_finery.png'}
+                                alt='Habilidade Passiva Veste de Gala'
+                                width={64}
+                                height={64}
+                            />
+                        </div>
                         <div className='flex flex-col font-mono text-center'>
                             <p className='italic'>Requer Level <strong>60</strong></p>
                             <p>
@@ -1137,12 +1169,14 @@ export default function PassiveSkillsComponent() {
                         <span>Bruto</span>
                     </button>
                     <div className={`${isBlunt ? 'flex' : 'hidden'} flex-col items-center gap-5 mt-8`}>
-                        <Image
-                            src={'/assets/skillsp/x1_crusader_passive_blunt.png'}
-                            alt='Habilidade Passiva Bruto'
-                            width={64}
-                            height={64}
-                        />
+                        <div className='w-[81px] h-[81px] flex justify-center items-center bg-[url("/assets/trait-64.png")] bg-right-top hover:bg-right-bottom'>
+                            <Image
+                                src={'/assets/skillsp/x1_crusader_passive_blunt.png'}
+                                alt='Habilidade Passiva Bruto'
+                                width={64}
+                                height={64}
+                            />
+                        </div>
                         <div className='flex flex-col font-mono text-center'>
                             <p className='italic'>Requer Level <strong>65</strong></p>
                             <p>Aumenta o dano de Justiça e Martelo Abençoado em <span className='text-green-500'>20%</span>.</p>
@@ -1162,12 +1196,14 @@ export default function PassiveSkillsComponent() {
                         <span>Escudo Altaneiro</span>
                     </button>
                     <div className={`${isToweringShield ? 'flex' : 'hidden'} flex-col items-center gap-5 mt-8`}>
-                        <Image
-                            src={'/assets/skillsp/x1_crusader_passive_toweringshield.png'}
-                            alt='Habilidade Passiva Escudo Altaneiro'
-                            width={64}
-                            height={64}
-                        />
+                        <div className='w-[81px] h-[81px] flex justify-center items-center bg-[url("/assets/trait-64.png")] bg-right-top hover:bg-right-bottom'>
+                            <Image
+                                src={'/assets/skillsp/x1_crusader_passive_toweringshield.png'}
+                                alt='Habilidade Passiva Escudo Altaneiro'
+                                width={64}
+                                height={64}
+                            />
+                        </div>
                         <div className='flex flex-col font-mono text-center'>
                             <p className='italic'>Requer Level <strong>70</strong></p>
                             <p>

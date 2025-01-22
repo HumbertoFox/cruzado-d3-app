@@ -1,3 +1,4 @@
+import FooterComponent from '@/components/footer';
 import HeaderComponent from '@/components/header';
 import HistoryComponent from '@/components/history';
 import SkillsComponent from '@/components/skills';
@@ -12,6 +13,7 @@ export default function Home() {
         <HistoryComponent />
         <SkillsComponent />
       </main>
+      <FooterComponent />
     </div>
   );
 }
