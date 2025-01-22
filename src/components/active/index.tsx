@@ -207,7 +207,7 @@ export default function ActiveSkillsComponent() {
             ref={activeSkillsRef}
         >
             <h4
-                className='text-center pb-4'
+                className='text-center pb-4 opacity-0'
                 ref={activeTitleRef}
             >
                 Habilidades Ativas
@@ -223,7 +223,7 @@ export default function ActiveSkillsComponent() {
                         title={isPrimary ? 'Volta para Habilidades Ativas' : 'Exibir Detalhes das Habilidades Primarias'}
                         onClick={togglePrimary}
                     >
-                        <span>Habilidades Primárias</span>
+                        <span>{isPrimary ? 'Voltar para Habilidades' : 'Habilidades Primárias'}</span>
                     </button>
                     <div className={`${isPrimary ? 'flex' : 'hidden'} flex-col gap-5 cursor-default`}>
                         <div className='flex flex-col'>
@@ -237,6 +237,7 @@ export default function ActiveSkillsComponent() {
                                 />
                                 <div className='flex flex-col gap-1 font-mono'>
                                     <p className='font-bold text-lg italic'>Punição</p>
+                                    <p className='italic'>Requer Nível <strong>1</strong></p>
                                     <p>Gera: <span className='text-green-500'>5</span> de Ira por ataque</p>
                                     <p>
                                         Atinge o inimigo, causa dano equivalente a
@@ -260,6 +261,7 @@ export default function ActiveSkillsComponent() {
                                 />
                                 <div className='flex flex-col gap-1 font-mono'>
                                     <p className='font-bold text-lg italic'>Talho</p>
+                                    <p className='italic'>Requer Nível <strong>3</strong></p>
                                     <p>Gera: <span className='text-green-500'>5</span> de Ira por ataque</p>
                                     <p>Incendeia o ar à sua frente, causando dano Ígneo equivalente a <span className='text-green-500'>230%</span> do dano de arma.</p>
                                 </div>
@@ -278,6 +280,7 @@ export default function ActiveSkillsComponent() {
                                 <div className='flex flex-col gap-1 font-mono'>
                                     <p className='font-bold text-lg italic'>Castigar</p>
                                     <p>Gera: <span className='text-green-500'>5</span> de Ira por ataque</p>
+                                    <p className='italic'>Requer Nível <strong>11</strong></p>
                                     <p>
                                         Castiga os inimigos num raio de<span className='text-green-500'> 30 </span>metros de distância com correntes sagradas,
                                         causando dano Sagrado equivalente a<span className='text-green-500'> 175% </span>do dano de arma. As correntes se partem e acertam
@@ -299,6 +302,7 @@ export default function ActiveSkillsComponent() {
                                 />
                                 <div className='flex flex-col gap-1 font-mono'>
                                     <p className='font-bold text-lg italic'>Justiça</p>
+                                    <p className='italic'>Requer Nível <strong>15</strong></p>
                                     <p>Gera: <span className='text-green-500'>5</span> de Ira por ataque</p>
                                     <p>Arremessa um martelo da justiça nos inimigos, causando <span className='text-green-500'>245%</span> de dano de arma.</p>
                                 </div>
@@ -317,7 +321,7 @@ export default function ActiveSkillsComponent() {
                         title={isSecondary ? 'Volta para Habilidades Ativas' : 'Exibir Detalhes das Habilidades Secundarias'}
                         onClick={toggleSecondary}
                     >
-                        <span>Habilidades Secundárias</span>
+                        <span>{isSecondary ? 'Voltar para Habilidades' : 'Habilidades Secundárias'}</span>
                     </button>
                     <div className={`${isSecondary ? 'flex' : 'hidden'} flex-col gap-5 cursor-default`}>
                         <div className='flex flex-col'>
@@ -331,6 +335,7 @@ export default function ActiveSkillsComponent() {
                                 />
                                 <div className='flex flex-col gap-1 font-mono'>
                                     <p className='font-bold text-lg italic'>Esmagamento com Escudo</p>
+                                    <p className='italic'>Requer Nível <strong>2</strong></p>
                                     <p>Custa: <span className='text-green-500'>30</span> de Ira</p>
                                     <p>
                                         Investe contra o inimigo, atingindo o alvo e todos os inimigos próximos. Causa
@@ -353,6 +358,7 @@ export default function ActiveSkillsComponent() {
                                 />
                                 <div className='flex flex-col gap-1 font-mono'>
                                     <p className='font-bold text-lg italic'>Ataque Amplo</p>
+                                    <p className='italic'>Requer Nível <strong>5</strong></p>
                                     <p>Custa: <span className='text-green-500'>20</span> de Ira</p>
                                     <p>
                                         Golpeia em arco com um mangual místico, atingindo todos os inimigos a até <span className='text-green-500'>18</span> metros à sua
@@ -374,6 +380,7 @@ export default function ActiveSkillsComponent() {
                                 />
                                 <div className='flex flex-col gap-1 font-mono'>
                                     <p className='font-bold text-lg italic'>Martelo Abençoado</p>
+                                    <p className='italic'>Requer Nível <strong>12</strong></p>
                                     <p>Custa: <span className='text-green-500'>10</span> de Ira</p>
                                     <p>
                                         Evoca um martelo abençoado que gira ao redor de você, causando dano Sagrado equivalente a
@@ -394,6 +401,7 @@ export default function ActiveSkillsComponent() {
                                 />
                                 <div className='flex flex-col gap-1 font-mono'>
                                     <p className='font-bold text-lg italic'>Escudo Abençoado</p>
+                                    <p className='italic'>Requer Nível <strong>20</strong></p>
                                     <p>Custa: <span className='text-green-500'>20</span> de Ira</p>
                                     <p>
                                         Atira seu escudo, causando <span className='text-green-500'>430%</span> do dano de arma como dano Sagrado mais
@@ -416,6 +424,7 @@ export default function ActiveSkillsComponent() {
                                 />
                                 <div className='flex flex-col gap-1 font-mono'>
                                     <p className='font-bold text-lg italic'>Punho do Paraíso</p>
+                                    <p className='italic'>Requer Nível <strong>26</strong></p>
                                     <p>Custa: <span className='text-green-500'>30</span> de Ira</p>
                                     <p>
                                         Evoca dos céus um pilar elétrico que explode, causando dano Elétrico equivalente a
@@ -439,7 +448,7 @@ export default function ActiveSkillsComponent() {
                         title={isDefensive ? 'Volta para Habilidades Ativas' : 'Exibir Detalhes das Habilidades Defensivas'}
                         onClick={toggleDefensive}
                     >
-                        <span>Habilidades Defensiva</span>
+                        <span>{isDefensive ? 'Voltar para Habilidades' : 'Habilidades Defensiva'}</span>
                     </button>
                     <div className={`${isDefensive ? 'flex' : 'hidden'} flex-col gap-5 cursor-default`}>
                         <div className='flex flex-col'>
@@ -453,6 +462,7 @@ export default function ActiveSkillsComponent() {
                                 />
                                 <div className='flex flex-col gap-1 font-mono'>
                                     <p className='font-bold text-lg italic'>Escudo Reluzente</p>
+                                    <p className='italic'>Requer Nível <strong>4</strong></p>
                                     <p>Recarga: <span className='text-green-500'>12</span> segundos</p>
                                     <p>
                                         A luz emana do seu escudo, Cegando todos os inimigos em um raio de <span className='text-green-500'>30 </span>
@@ -474,6 +484,7 @@ export default function ActiveSkillsComponent() {
                                 />
                                 <div className='flex flex-col gap-1 font-mono'>
                                     <p className='font-bold text-lg italic'>Pele de Ferro</p>
+                                    <p className='italic'>Requer Nível <strong>8</strong></p>
                                     <p>Recarga: <span className='text-green-500'>30</span> segundos</p>
                                     <p>
                                         Sua pele transforma-se em ferro e absorve <span className='text-green-500'>50% </span>
@@ -494,6 +505,7 @@ export default function ActiveSkillsComponent() {
                                 />
                                 <div className='flex flex-col gap-1 font-mono'>
                                     <p className='font-bold text-lg italic'>Consagração</p>
+                                    <p className='italic'>Requer Nível <strong>16</strong></p>
                                     <p>Recarga: <span className='text-green-500'>30</span> segundos</p>
                                     <p>
                                         Consagra uma área de <span className='text-green-500'>20</span> metros ao seu redor por <span className='text-green-500'>10</span> segundos.
@@ -515,6 +527,7 @@ export default function ActiveSkillsComponent() {
                                 />
                                 <div className='flex flex-col gap-1 font-mono'>
                                     <p className='font-bold text-lg italic'>Julgamento</p>
+                                    <p className='italic'>Requer Nível <strong>22</strong></p>
                                     <p>Recarga: <span className='text-green-500'>20</span> segundos</p>
                                     <p>
                                         Julga os inimigos em um raio de <span className='text-green-500'>20</span> metros do local alvejado,
@@ -536,7 +549,7 @@ export default function ActiveSkillsComponent() {
                         title={isUtility ? 'Volta para Habilidades Ativas' : 'Exibir Detalhes das Habilidades Utilidades'}
                         onClick={toggleUtitlity}
                     >
-                        <span>Habilidades Utilidades</span>
+                        <span>{isUtility ? 'Voltar para Habilidades' : 'Habilidades Utilidades'}</span>
                     </button>
                     <div className={`${isUtility ? 'flex' : 'hidden'} flex-col gap-5 cursor-default`}>
                         <div className='flex flex-col'>
@@ -550,6 +563,7 @@ export default function ActiveSkillsComponent() {
                                 />
                                 <div className='flex flex-col gap-1 font-mono'>
                                     <p className='font-bold text-lg italic'>Provocar</p>
+                                    <p className='italic'>Requer Nível <strong>9</strong></p>
                                     <p>Recarga: <span className='text-green-500'>20</span> segundos</p>
                                     <p>Gera: <span className='text-green-500'>30</span> de Ira</p>
                                     <p>
@@ -572,6 +586,7 @@ export default function ActiveSkillsComponent() {
                                 />
                                 <div className='flex flex-col gap-1 font-mono'>
                                     <p className='font-bold text-lg italic'>Investida com Corcel</p>
+                                    <p className='italic'>Requer Nível <strong>13</strong></p>
                                     <p>Recarga: <span className='text-green-500'>16</span> segundos</p>
                                     <p>
                                         Cavalga um Corcel de Guerra celestial que permite que você passe livremente entre os inimigos por
@@ -592,6 +607,7 @@ export default function ActiveSkillsComponent() {
                                 />
                                 <div className='flex flex-col gap-1 font-mono'>
                                     <p className='font-bold text-lg italic'>Condenar</p>
+                                    <p className='italic'>Requer Nível <strong>21</strong></p>
                                     <p>Recarga: <span className='text-green-500'>15</span> segundos</p>
                                     <p>
                                         Você prepara uma explosão poderosa e a lança após<span className='text-green-500'> 3 </span>
@@ -613,6 +629,7 @@ export default function ActiveSkillsComponent() {
                                 />
                                 <div className='flex flex-col gap-1 font-mono'>
                                     <p className='font-bold text-lg italic'>Falange</p>
+                                    <p className='italic'>Requer Nível <strong>27</strong></p>
                                     <p>Custa: <span className='text-green-500'>30</span> de Ira</p>
                                     <p>
                                         Evoca avatares poderosos que investem na direção-alvo. Inimigos na trajetória da investida recebem
@@ -634,7 +651,7 @@ export default function ActiveSkillsComponent() {
                         title={isLaws ? 'Volta para Habilidades Ativas' : 'Exibir Detalhes das Habilidades Leis'}
                         onClick={toggleLaws}
                     >
-                        <span>Habilidades Leis</span>
+                        <span>{isLaws ? 'Voltar para Habilidades' : 'Habilidades Leis'}</span>
                     </button>
                     <div className={`${isLaws ? 'flex' : 'hidden'} flex-col gap-5 cursor-default`}>
                         <div className='flex flex-col'>
@@ -648,6 +665,7 @@ export default function ActiveSkillsComponent() {
                                 />
                                 <div className='flex flex-col gap-1 font-mono'>
                                     <p className='font-bold text-lg italic'>Leis da Bravura</p>
+                                    <p className='italic'>Requer Nível <strong>14</strong></p>
                                     <p>Recarga: <span className='text-green-500'>30</span> segundos</p>
                                     <p>
                                         Ativa: Fortalece a Lei, concedendo a você e seus aliados <span className='text-green-500'>15%</span> a mais de velocidade de ataque por <span className='text-green-500'>5</span> segundos.
@@ -671,6 +689,7 @@ export default function ActiveSkillsComponent() {
                                 />
                                 <div className='flex flex-col gap-1 font-mono'>
                                     <p className='font-bold text-lg italic'>Leis da Justiça</p>
+                                    <p className='italic'>Requer Nível <strong>17</strong></p>
                                     <p>Recarga: <span className='text-green-500'>30</span> segundos</p>
                                     <p>
                                         Ativa: Fortalece a Lei,
@@ -695,6 +714,7 @@ export default function ActiveSkillsComponent() {
                                 />
                                 <div className='flex flex-col gap-1 font-mono'>
                                     <p className='font-bold text-lg italic'>Leis da Esperança</p>
+                                    <p className='italic'>Requer Nível <strong>24</strong></p>
                                     <p>Recarga: <span className='text-green-500'>30</span> segundos</p>
                                     <p>
                                         Ativa: Fortalece a Lei,
@@ -720,7 +740,7 @@ export default function ActiveSkillsComponent() {
                         title={isConviction ? 'Volta para Habilidades Ativas' : 'Exibir Detalhes das Habilidades Convicções'}
                         onClick={toggleConviction}
                     >
-                        <span>Habilidades Convicções</span>
+                        <span>{isConviction ? 'Voltar para Habilidades' : 'Habilidades Convicções'}</span>
                     </button>
                     <div className={`${isConviction ? 'flex' : 'hidden'} flex-col gap-5 cursor-default`}>
                         <div className='flex flex-col'>
@@ -734,6 +754,7 @@ export default function ActiveSkillsComponent() {
                                 />
                                 <div className='flex flex-col gap-1 font-mono'>
                                     <p className='font-bold text-lg italic'>Espada Cadente</p>
+                                    <p className='italic'>Requer Nível <strong>19</strong></p>
                                     <p>Custa: <span className='text-green-500'>25</span> de Ira</p>
                                     <p>Recarga: <span className='text-green-500'>30</span> segundos</p>
                                     <p>
@@ -756,6 +777,7 @@ export default function ActiveSkillsComponent() {
                                 />
                                 <div className='flex flex-col gap-1 font-mono'>
                                     <p className='font-bold text-lg italic'>Campeão de Akarat</p>
+                                    <p className='italic'>Requer Nível <strong>25</strong></p>
                                     <p>Recarga: <span className='text-green-500'>90</span> segundos</p>
                                     <p>
                                         Explode com o poder da sua ordem, aumentando seu dano em <span className='text-green-500'>35% </span>
@@ -776,6 +798,7 @@ export default function ActiveSkillsComponent() {
                                 />
                                 <div className='flex flex-col gap-1 font-mono'>
                                     <p className='font-bold text-lg italic'>Fúria do Paraíso</p>
+                                    <p className='italic'>Requer Nível <strong>30</strong></p>
                                     <p>Recarga: <span className='text-green-500'>20</span> segundos</p>
                                     <p>
                                         Evoca um raio furioso de energia sagrada que causa dano Sagrado equivalente a <span className='text-green-500'>1710%</span> do dano de arma ao
@@ -796,6 +819,7 @@ export default function ActiveSkillsComponent() {
                                 />
                                 <div className='flex flex-col gap-1 font-mono'>
                                     <p className='font-bold text-lg italic'>Bombardeio</p>
+                                    <p className='italic'>Requer Nível <strong>61</strong></p>
                                     <p>Recarga: <span className='text-green-500'>60</span> segundos</p>
                                     <p>
                                         Evoca um ataque a distância, fazendo com que chovam <span className='text-green-500'>5</span> esferas de piche flamejante e pedras sobre os inimigos ao redor,

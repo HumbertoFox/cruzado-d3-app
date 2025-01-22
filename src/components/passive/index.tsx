@@ -716,7 +716,7 @@ export default function PassiveSkillsComponent() {
                             />
                         </div>
                         <div className='flex flex-col font-mono text-center'>
-                            <p className='italic'>Requer Level <strong>10</strong></p>
+                            <p className='italic'>Requer Nível <strong>10</strong></p>
                             <p>Você pode empunhar uma <span className='text-green-500'>arma de duas mãos</span> com a mão principal enquanto empunha um escudo na mão secundária.</p>
                             <p>O dano causado por você é reduzido em <span className='text-green-500'>20%</span>.</p>
                         </div>
@@ -744,7 +744,7 @@ export default function PassiveSkillsComponent() {
                             />
                         </div>
                         <div className='flex flex-col font-mono text-center'>
-                            <p className='italic'>Requer Level <strong>10</strong></p>
+                            <p className='italic'>Requer Nível <strong>10</strong></p>
                             <p>
                                 Ao empunhar uma <span className='text-green-500'>arma de uma mão</span>, sua velocidade de ataque aumenta em
                                 <span className='text-green-500'> 15%</span> e todas as recargas são reduzidas em <span className='text-green-500'>15%</span>.
@@ -774,7 +774,7 @@ export default function PassiveSkillsComponent() {
                             />
                         </div>
                         <div className='flex flex-col font-mono text-center'>
-                            <p className='italic'>Requer Level <strong>13</strong></p>
+                            <p className='italic'>Requer Nível <strong>13</strong></p>
                             <p>Aumenta a regeneração total de Vida em <span className='text-green-500'>2682</span>.</p>
                             <p>Reduz todo o dano não Físico recebido em <span className='text-green-500'>20%</span>.</p>
                         </div>
@@ -802,7 +802,7 @@ export default function PassiveSkillsComponent() {
                             />
                         </div>
                         <div className='flex flex-col font-mono text-center'>
-                            <p className='italic'>Requer Level <strong>16</strong></p>
+                            <p className='italic'>Requer Nível <strong>16</strong></p>
                             <p>Suas habilidades primárias geram <span className='text-green-500'>3</span> de Ira adicional.</p>
                             <p>Aumenta sua Ira máxima em <span className='text-green-500'>30</span>.</p>
                         </div>
@@ -830,7 +830,7 @@ export default function PassiveSkillsComponent() {
                             />
                         </div>
                         <div className='flex flex-col font-mono text-center'>
-                            <p className='italic'>Requer Level <strong>20</strong></p>
+                            <p className='italic'>Requer Nível <strong>20</strong></p>
                             <p>Bloquear um ataque gera <span className='text-green-500'>6</span> de Ira.</p>
                         </div>
                     </div>
@@ -857,7 +857,7 @@ export default function PassiveSkillsComponent() {
                             />
                         </div>
                         <div className='flex flex-col font-mono text-center'>
-                            <p className='italic'>Requer Level <strong>20</strong></p>
+                            <p className='italic'>Requer Nível <strong>20</strong></p>
                             <p>
                                 Aumenta a velocidade de ataque de Punição, Talho, Castigar e Justiça em <span className='text-green-500'>15%</span>.
                             </p>
@@ -886,7 +886,7 @@ export default function PassiveSkillsComponent() {
                             />
                         </div>
                         <div className='flex flex-col font-mono text-center'>
-                            <p className='italic'>Requer Level <strong>25</strong></p>
+                            <p className='italic'>Requer Nível <strong>25</strong></p>
                             <p>
                                 Ao receber dano fatal, em vez disso você torna-se imune ao dano,
                                 ganha <span className='text-green-500'>35%</span> de dano aumentado e <span className='text-green-500'>107.284 </span>
@@ -918,7 +918,7 @@ export default function PassiveSkillsComponent() {
                             />
                         </div>
                         <div className='flex flex-col font-mono text-center'>
-                            <p className='italic'>Requer Level <strong>27</strong></p>
+                            <p className='italic'>Requer Nível <strong>27</strong></p>
                             <p>Aumenta em <span className='text-green-500'>10%</span> o dano que sua arma causa.</p>
                             <p>
                                 Sempre que causar dano Sagrado, você receberá uma cura de até <span className='text-green-500'>1%</span> do seu total de Vida.
@@ -948,7 +948,7 @@ export default function PassiveSkillsComponent() {
                             />
                         </div>
                         <div className='flex flex-col font-mono text-center'>
-                            <p className='italic'>Requer Level <strong>30</strong></p>
+                            <p className='italic'>Requer Nível <strong>30</strong></p>
                             <p>Cada ponto de Ira gasto cura <span className='text-green-500'>1341</span> da sua Vida.</p>
                             <p>
                                 A quantidade de cura aumenta em <span className='text-green-500'>1%</span> do seu Bônus de cura do globo de Vida.
@@ -978,7 +978,7 @@ export default function PassiveSkillsComponent() {
                             />
                         </div>
                         <div className='flex flex-col font-mono text-center'>
-                            <p className='italic'>Requer Level <strong>30</strong></p>
+                            <p className='italic'>Requer Nível <strong>30</strong></p>
                             <p>
                                 Sua armadura é aumentada por uma porcentagem igual à Chance de bloqueio do seu escudo.
                             </p>
@@ -1007,7 +1007,7 @@ export default function PassiveSkillsComponent() {
                             />
                         </div>
                         <div className='flex flex-col font-mono text-center'>
-                            <p className='italic'>Requer Level <strong>35</strong></p>
+                            <p className='italic'>Requer Nível <strong>35</strong></p>
                             <p>
                                 A recarga da Investida com Corcel é reduzida em <span className='text-green-500'>25%</span> e a do Bombardeio, em <span className='text-green-500'>35%</span>.
                             </p>
@@ -1037,7 +1037,7 @@ export default function PassiveSkillsComponent() {
                             />
                         </div>
                         <div className='flex flex-col font-mono text-center'>
-                            <p className='italic'>Requer Level <strong>40</strong></p>
+                            <p className='italic'>Requer Nível <strong>40</strong></p>
                             <p>
                                 Você não pode mais se Esquivar, mas sua Chance de Bloqueio aumenta em <span className='text-green-500'>30%</span>.
                             </p>
@@ -1066,7 +1066,7 @@ export default function PassiveSkillsComponent() {
                             />
                         </div>
                         <div className='flex flex-col font-mono text-center'>
-                            <p className='italic'>Requer Level <strong>45</strong></p>
+                            <p className='italic'>Requer Nível <strong>45</strong></p>
                             <p>
                                 Aumenta a duração do efeito ativo de todas as Leis em <span className='text-green-500'>5</span> segundos.
                             </p>
@@ -1095,7 +1095,7 @@ export default function PassiveSkillsComponent() {
                             />
                         </div>
                         <div className='flex flex-col font-mono text-center'>
-                            <p className='italic'>Requer Level <strong>50</strong></p>
+                            <p className='italic'>Requer Nível <strong>50</strong></p>
                             <p>Seus Espinhos aumentam em <span className='text-green-500'>50%</span>.</p>
                         </div>
                     </div>
@@ -1122,7 +1122,7 @@ export default function PassiveSkillsComponent() {
                             />
                         </div>
                         <div className='flex flex-col font-mono text-center'>
-                            <p className='italic'>Requer Level <strong>55</strong></p>
+                            <p className='italic'>Requer Nível <strong>55</strong></p>
                             <p>Sempre que bloqueia, você recebe <span className='text-green-500'>16.093</span> de Vida.</p>
                         </div>
                     </div>
@@ -1149,7 +1149,7 @@ export default function PassiveSkillsComponent() {
                             />
                         </div>
                         <div className='flex flex-col font-mono text-center'>
-                            <p className='italic'>Requer Level <strong>60</strong></p>
+                            <p className='italic'>Requer Nível <strong>60</strong></p>
                             <p>
                                 Você recebe <span className='text-green-500'>1,5%</span> de Força para cada gema engastada no seu equipamento.
                             </p>
@@ -1178,7 +1178,7 @@ export default function PassiveSkillsComponent() {
                             />
                         </div>
                         <div className='flex flex-col font-mono text-center'>
-                            <p className='italic'>Requer Level <strong>65</strong></p>
+                            <p className='italic'>Requer Nível <strong>65</strong></p>
                             <p>Aumenta o dano de Justiça e Martelo Abençoado em <span className='text-green-500'>20%</span>.</p>
                         </div>
                     </div>
@@ -1205,7 +1205,7 @@ export default function PassiveSkillsComponent() {
                             />
                         </div>
                         <div className='flex flex-col font-mono text-center'>
-                            <p className='italic'>Requer Level <strong>70</strong></p>
+                            <p className='italic'>Requer Nível <strong>70</strong></p>
                             <p>
                                 Aumenta o dano de Punição, Esmagamento com Escudo e Escudo Abençoado em <span className='text-green-500'>20%</span>.
                             </p>

@@ -25,7 +25,7 @@ export default function RunesSteedChargeComponent() {
                     </span>
                     <div className='flex flex-col gap-1 font-mono text-sm'>
                         <span className='font-bold text-base italic'>Sela com Espinhos</span>
-                        <span className='italic'>Requer Level <strong>19</strong></span>
+                        <span className='italic'>Requer Nível <strong>19</strong></span>
                         <p>
                             O corcel de guerra causa<span className='text-green-500'> 500% </span>do dano de Espinhos aos inimigos que você atravessa.
                         </p>
@@ -37,7 +37,7 @@ export default function RunesSteedChargeComponent() {
                     </span>
                     <div className='flex flex-col gap-1 font-mono text-sm'>
                         <span className='font-bold text-base italic'>Pesadelo</span>
-                        <span className='italic'>Requer Level <strong>25</strong></span>
+                        <span className='italic'>Requer Nível <strong>25</strong></span>
                         <p>
                             O Corcel de Guerra é consumido por um fogo íntegro, queimando tudo que estiver no caminho, causando dano Ígneo equivalente a
                             <span className='text-green-500'> 550% </span>do dano da arma por segundo.
@@ -50,7 +50,7 @@ export default function RunesSteedChargeComponent() {
                     </span>
                     <div className='flex flex-col gap-1 font-mono text-sm'>
                         <span className='font-bold text-base italic'>Rejuvenescimento</span>
-                        <span className='italic'>Requer Level <strong>36</strong></span>
+                        <span className='italic'>Requer Nível <strong>36</strong></span>
                         <p>
                             Ao cavalgar no Corcel de Guerra, você recupera<span className='text-green-500'> 15% </span>da Vida máxima.
                         </p>
@@ -62,7 +62,7 @@ export default function RunesSteedChargeComponent() {
                     </span>
                     <div className='flex flex-col gap-1 font-mono text-sm'>
                         <span className='font-bold text-base italic'>Tolerância</span>
-                        <span className='italic'>Requer Level <strong>42</strong></span>
+                        <span className='italic'>Requer Nível <strong>42</strong></span>
                         <p>
                             Aumenta a duração para<span className='text-green-500'> 3 </span>segundos.
                         </p>
@@ -74,7 +74,7 @@ export default function RunesSteedChargeComponent() {
                     </span>
                     <div className='flex flex-col gap-1 font-mono text-sm'>
                         <span className='font-bold text-base italic'>Esquartejar</span>
-                        <span className='italic'>Requer Level <strong>52</strong></span>
+                        <span className='italic'>Requer Nível <strong>52</strong></span>
                         <p>
                             Prende<span className='text-green-500'> 5 </span>monstros próximos de você com correntes e os arrasta, causando dano Sagrado equivalente a
                             <span className='text-green-500'> 185% </span>do dano da arma por segundo.

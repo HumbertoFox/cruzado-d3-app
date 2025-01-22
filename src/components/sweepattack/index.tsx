@@ -25,7 +25,7 @@ export default function RunesSweepAttackComponent() {
                     </span>
                     <div className='flex flex-col gap-1 font-mono text-sm'>
                         <span className='font-bold text-base italic'>Golpe Flamejante</span>
-                        <span className='italic'>Requer Level <strong>11</strong></span>
+                        <span className='italic'>Requer Nível <strong>11</strong></span>
                         <p>
                             Inimigos atingidos pelo ataque pegarão fogo, recebendo<span className='text-green-500'> 120% </span>
                             de dano de arma ao longo de<span className='text-green-500'> 2 </span>segundos.
@@ -38,7 +38,7 @@ export default function RunesSweepAttackComponent() {
                     </span>
                     <div className='flex flex-col gap-1 font-mono text-sm'>
                         <span className='font-bold text-base italic'>Rasteira</span>
-                        <span className='italic'>Requer Level <strong>19</strong></span>
+                        <span className='italic'>Requer Nível <strong>19</strong></span>
                         <p>
                             Inimigos atingidos pelo ataque têm 50% de chance de tropeçar, atordoando-os por<span className='text-green-500'> 2 </span>segundos.
                         </p>
@@ -50,7 +50,7 @@ export default function RunesSweepAttackComponent() {
                     </span>
                     <div className='flex flex-col gap-1 font-mono text-sm'>
                         <span className='font-bold text-base italic'>Choque Sagrado</span>
-                        <span className='italic'>Requer Level <strong>33</strong></span>
+                        <span className='italic'>Requer Nível <strong>33</strong></span>
                         <p>
                             Cura<span className='text-green-500'> 5364 </span>da sua Vida para cada inimigo atingido.
                         </p>
@@ -62,7 +62,7 @@ export default function RunesSweepAttackComponent() {
                     </span>
                     <div className='flex flex-col gap-1 font-mono text-sm'>
                         <span className='font-bold text-base italic'>Golpe Coletor</span>
-                        <span className='italic'>Requer Level <strong>45</strong></span>
+                        <span className='italic'>Requer Nível <strong>45</strong></span>
                         <p>
                             Inimigos pegos pelo golpe são arrastados na sua direção. O dano do Ataque Amplo se torna Sagrado.
                         </p>
@@ -74,7 +74,7 @@ export default function RunesSweepAttackComponent() {
                     </span>
                     <div className='flex flex-col gap-1 font-mono text-sm'>
                         <span className='font-bold text-base italic'>Ataque Amplo Inspirador</span>
-                        <span className='italic'>Requer Level <strong>55</strong></span>
+                        <span className='italic'>Requer Nível <strong>55</strong></span>
                         <p>
                             Ataque Amplo aumenta sua armadura em<span className='text-green-500'> 20% </span>por<span className='text-green-500'> 3 </span>segundos.
                         </p>

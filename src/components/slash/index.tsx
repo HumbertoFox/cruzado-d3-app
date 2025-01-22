@@ -25,7 +25,7 @@ export default function RunesSlashComponent() {
                     </span>
                     <div className='flex flex-col gap-1 font-mono text-sm'>
                         <span className='font-bold text-base italic'>Eletrificar</span>
-                        <span className='italic'>Requer Level <strong>9</strong></span>
+                        <span className='italic'>Requer Nível <strong>9</strong></span>
                         <p>
                             O talho se torna elétrico e tem<span className='text-green-500'> 25% </span>
                             de chance de atordoar os inimigos por<span className='text-green-500'> 2 </span>segundos.
@@ -38,7 +38,7 @@ export default function RunesSlashComponent() {
                     </span>
                     <div className='flex flex-col gap-1 font-mono text-sm'>
                         <span className='font-bold text-base italic'>Cutilar</span>
-                        <span className='italic'>Requer Level <strong>18</strong></span>
+                        <span className='italic'>Requer Nível <strong>18</strong></span>
                         <p>
                             Cutila uma área maior à sua frente, aumentando o número de inimigos atingidos.
                         </p>
@@ -50,7 +50,7 @@ export default function RunesSlashComponent() {
                     </span>
                     <div className='flex flex-col gap-1 font-mono text-sm'>
                         <span className='font-bold text-base italic'>Quebrador</span>
-                        <span className='italic'>Requer Level <strong>34</strong></span>
+                        <span className='italic'>Requer Nível <strong>34</strong></span>
                         <p>
                             Talho aumenta em<span className='text-green-500'> 20% </span>a chance de acerto crítico.
                         </p>
@@ -62,7 +62,7 @@ export default function RunesSlashComponent() {
                     </span>
                     <div className='flex flex-col gap-1 font-mono text-sm'>
                         <span className='font-bold text-base italic'>Zeloso</span>
-                        <span className='italic'>Requer Level <strong>47</strong></span>
+                        <span className='italic'>Requer Nível <strong>47</strong></span>
                         <p>
                             Recebe<span className='text-green-500'> 1% </span>de aumento de Velocidade de ataque para cada inimigo acertado por
                             <span className='text-green-500'> 3 </span>segundos. Esse efeito acumula até<span className='text-green-500'> 10 </span>vezes.
@@ -75,7 +75,7 @@ export default function RunesSlashComponent() {
                     </span>
                     <div className='flex flex-col gap-1 font-mono text-sm'>
                         <span className='font-bold text-base italic'>Guarda</span>
-                        <span className='italic'>Requer Level <strong>54</strong></span>
+                        <span className='italic'>Requer Nível <strong>54</strong></span>
                         <p>
                             Recebe<span className='text-green-500'> 5% </span>de aumento de Armadura para cada inimigo atingido. Este efeito pode acumular até
                             <span className='text-green-500'> 5 </span>vezes.

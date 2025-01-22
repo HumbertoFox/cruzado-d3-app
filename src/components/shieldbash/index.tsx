@@ -25,7 +25,7 @@ export default function RunesShieldBashComponent() {
                     </span>
                     <div className='flex flex-col gap-1 font-mono text-sm'>
                         <span className='font-bold text-base italic'>Escudo Estilhaçado</span>
-                        <span className='italic'>Requer Level <strong>7</strong></span>
+                        <span className='italic'>Requer Nível <strong>7</strong></span>
                         <p>
                             O escudo se estilhaça em fragmentos menores, atingindo mais inimigos. Os inimigos atingidos adicionais recebem
                             <span className='text-green-500'> 740% </span>do dano de arma mais dano equivalente a<span className='text-green-500'> 335% </span>
@@ -39,7 +39,7 @@ export default function RunesShieldBashComponent() {
                     </span>
                     <div className='flex flex-col gap-1 font-mono text-sm'>
                         <span className='font-bold text-base italic'>Um contra Um</span>
-                        <span className='italic'>Requer Level <strong>15</strong></span>
+                        <span className='italic'>Requer Nível <strong>15</strong></span>
                         <p>
                             Atordoa o monstro alvejado por<span className='text-green-500'> 1,5 </span>segundos. Repele todos os outros monstros atingidos.
                         </p>
@@ -51,7 +51,7 @@ export default function RunesShieldBashComponent() {
                     </span>
                     <div className='flex flex-col gap-1 font-mono text-sm'>
                         <span className='font-bold text-base italic'>Cruz do Escudo</span>
-                        <span className='italic'>Requer Level <strong>27</strong></span>
+                        <span className='italic'>Requer Nível <strong>27</strong></span>
                         <p>
                             Escudos adicionais irrompem de você em forma de cruz. Os inimigos atingidos por esses escudos adicionais receberão
                             <span className='text-green-500'> 155% </span>do dano de arma mais dano equivalente a<span className='text-green-500'> 100% </span>
@@ -65,7 +65,7 @@ export default function RunesShieldBashComponent() {
                     </span>
                     <div className='flex flex-col gap-1 font-mono text-sm'>
                         <span className='font-bold text-base italic'>Desmoronar</span>
-                        <span className='italic'>Requer Level <strong>39</strong></span>
+                        <span className='italic'>Requer Nível <strong>39</strong></span>
                         <p>
                             Aumenta em<span className='text-green-500'> 875% </span>o dano de arma de Esmagamento com Escudo.
                         </p>
@@ -77,7 +77,7 @@ export default function RunesShieldBashComponent() {
                     </span>
                     <div className='flex flex-col gap-1 font-mono text-sm'>
                         <span className='font-bold text-base italic'>Pancada</span>
-                        <span className='italic'>Requer Level <strong>53</strong></span>
+                        <span className='italic'>Requer Nível <strong>53</strong></span>
                         <p>
                             Esmagamento com Escudo agora causa<span className='text-green-500'> 1320% </span>
                             do dano de arma e<span className='text-green-500'> 500% </span>

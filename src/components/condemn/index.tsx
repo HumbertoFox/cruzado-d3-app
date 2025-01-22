@@ -25,7 +25,7 @@ export default function RunesCondemnComponent() {
                     </span>
                     <div className='flex flex-col gap-1 font-mono text-sm'>
                         <span className='font-bold text-base italic'>Vácuo</span>
-                        <span className='italic'>Requer Level <strong>26</strong></span>
+                        <span className='italic'>Requer Nível <strong>26</strong></span>
                         <p>
                             Conforme a explosão acumula energia, ela atrai os inimigos. Quanto mais perto de explodir, mais inimigos ela atrai.
                         </p>
@@ -37,7 +37,7 @@ export default function RunesCondemnComponent() {
                     </span>
                     <div className='flex flex-col gap-1 font-mono text-sm'>
                         <span className='font-bold text-base italic'>Desenfreado</span>
-                        <span className='italic'>Requer Level <strong>33</strong></span>
+                        <span className='italic'>Requer Nível <strong>33</strong></span>
                         <p>
                             A explosão agora detona instantaneamente.
                         </p>
@@ -49,7 +49,7 @@ export default function RunesCondemnComponent() {
                     </span>
                     <div className='flex flex-col gap-1 font-mono text-sm'>
                         <span className='font-bold text-base italic'>Retaliação Eterna</span>
-                        <span className='italic'>Requer Level <strong>38</strong></span>
+                        <span className='italic'>Requer Nível <strong>38</strong></span>
                         <p>
                             Reduz a recarga em<span className='text-green-500'> 1 </span>segundo para cada inimigo atingido pela explosão.
                         </p>
@@ -61,7 +61,7 @@ export default function RunesCondemnComponent() {
                     </span>
                     <div className='flex flex-col gap-1 font-mono text-sm'>
                         <span className='font-bold text-base italic'>Explosão Estilhaçante</span>
-                        <span className='italic'>Requer Level <strong>47</strong></span>
+                        <span className='italic'>Requer Nível <strong>47</strong></span>
                         <p>
                             O raio do dano aumenta para<span className='text-green-500'> 20 </span>metros.
                         </p>
@@ -73,7 +73,7 @@ export default function RunesCondemnComponent() {
                     </span>
                     <div className='flex flex-col gap-1 font-mono text-sm'>
                         <span className='font-bold text-base italic'>Retaliar</span>
-                        <span className='italic'>Requer Level <strong>56</strong></span>
+                        <span className='italic'>Requer Nível <strong>56</strong></span>
                         <p>
                             <span className='text-green-500'>50% do </span>dano recebido enquanto a explosão está acumulando é adicionado ao dano da explosão.
                         </p>

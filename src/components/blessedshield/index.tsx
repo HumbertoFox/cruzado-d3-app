@@ -25,7 +25,7 @@ export default function RunesBlessedShieldComponent() {
                     </span>
                     <div className='flex flex-col gap-1 font-mono text-sm'>
                         <span className='font-bold text-base italic'>Escudo Vertiginoso</span>
-                        <span className='italic'>Requer Level <strong>24</strong></span>
+                        <span className='italic'>Requer Nível <strong>24</strong></span>
                         <p>
                             O escudo fica carregado de eletricidade e tem<span className='text-green-500'> 25% </span>
                             de chance de atordoar o primeiro inimigo atingido por<span className='text-green-500'> 2 </span>
@@ -39,7 +39,7 @@ export default function RunesBlessedShieldComponent() {
                     </span>
                     <div className='flex flex-col gap-1 font-mono text-sm'>
                         <span className='font-bold text-base italic'>Incendiar</span>
-                        <span className='italic'>Requer Level <strong>29</strong></span>
+                        <span className='italic'>Requer Nível <strong>29</strong></span>
                         <p>
                             O escudo irrompe em chamas e tem<span className='text-green-500'> 33% </span>
                             de chance de explodir com o impacto, causando dano Ígneo equivalente a<span className='text-green-500'> 310% </span>
@@ -53,7 +53,7 @@ export default function RunesBlessedShieldComponent() {
                     </span>
                     <div className='flex flex-col gap-1 font-mono text-sm'>
                         <span className='font-bold text-base italic'>Égide Divina</span>
-                        <span className='italic'>Requer Level <strong>38</strong></span>
+                        <span className='italic'>Requer Nível <strong>38</strong></span>
                         <p>
                             Quando o escudo atinge um inimigo, sua Armadura aumenta em<span className='text-green-500'> 5% </span>
                             e sua regeneração de Vida em<span className='text-green-500'> 5% </span>por<span className='text-green-500'> 4 </span>segundos.
@@ -66,7 +66,7 @@ export default function RunesBlessedShieldComponent() {
                     </span>
                     <div className='flex flex-col gap-1 font-mono text-sm'>
                         <span className='font-bold text-base italic'>Arremesso Esfacelante</span>
-                        <span className='italic'>Requer Level <strong>44</strong></span>
+                        <span className='italic'>Requer Nível <strong>44</strong></span>
                         <p>
                             Quando o escudo atinge um inimigo, ele se divide em<span className='text-green-500'> 3 </span>
                             fragmentos pequenos que ricocheteiam entre os inimigos próximos, causando<span className='text-green-500'> 170% </span>
@@ -80,7 +80,7 @@ export default function RunesBlessedShieldComponent() {
                     </span>
                     <div className='flex flex-col gap-1 font-mono text-sm'>
                         <span className='font-bold text-base italic'>Escudo Perfurante</span>
-                        <span className='italic'>Requer Level <strong>59</strong></span>
+                        <span className='italic'>Requer Nível <strong>59</strong></span>
                         <p>
                             O escudo não ricocheteia, mas atravessa todos os inimigos, com<span className='text-green-500'>50% </span>de chance de repeli-los para longe.
                         </p>

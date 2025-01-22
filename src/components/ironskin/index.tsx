@@ -25,7 +25,7 @@ export default function RunesIronSkinComponent() {
                     </span>
                     <div className='flex flex-col gap-1 font-mono text-sm'>
                         <span className='font-bold text-base italic'>Pele Refletiva</span>
-                        <span className='italic'>Requer Level <strong>14</strong></span>
+                        <span className='italic'>Requer Nível <strong>14</strong></span>
                         <p>
                             Enquanto estiverem ativos, seus Espinhos aumentam em<span className='text-green-500'> 300%</span>.
                         </p>
@@ -37,7 +37,7 @@ export default function RunesIronSkinComponent() {
                     </span>
                     <div className='flex flex-col gap-1 font-mono text-sm'>
                         <span className='font-bold text-base italic'>Pele de Aço</span>
-                        <span className='italic'>Requer Level <strong>21</strong></span>
+                        <span className='italic'>Requer Nível <strong>21</strong></span>
                         <p>
                             Aumenta a duração para<span className='text-green-500'> 7 </span>segundos.
                         </p>
@@ -49,7 +49,7 @@ export default function RunesIronSkinComponent() {
                     </span>
                     <div className='flex flex-col gap-1 font-mono text-sm'>
                         <span className='font-bold text-base italic'>Pele Explosiva</span>
-                        <span className='italic'>Requer Level <strong>32</strong></span>
+                        <span className='italic'>Requer Nível <strong>32</strong></span>
                         <p>
                             Quando Pele de Ferro expira, o metal explode e causa<span className='text-green-500'> 1400% </span>
                             de dano de arma aos inimigos em um raio de<span className='text-green-500'> 12 </span>metros.
@@ -62,7 +62,7 @@ export default function RunesIronSkinComponent() {
                     </span>
                     <div className='flex flex-col gap-1 font-mono text-sm'>
                         <span className='font-bold text-base italic'>Carregado</span>
-                        <span className='italic'>Requer Level <strong>44</strong></span>
+                        <span className='italic'>Requer Nível <strong>44</strong></span>
                         <p>
                             Sua pele de metal fica eletrificada, concedendo a você<span className='text-green-500'> 20% </span>
                             de chance de atordoar os inimigos em raio de<span className='text-green-500'> 10 </span>
@@ -76,7 +76,7 @@ export default function RunesIronSkinComponent() {
                     </span>
                     <div className='flex flex-col gap-1 font-mono text-sm'>
                         <span className='font-bold text-base italic'>Lampejo</span>
-                        <span className='italic'>Requer Level <strong>56</strong></span>
+                        <span className='italic'>Requer Nível <strong>56</strong></span>
                         <p>
                             Se receber dano enquanto o efeito Pele de Ferro estiver ativo, sua velocidade de movimento aumenta em
                             <span className='text-green-500'> 60% </span>por

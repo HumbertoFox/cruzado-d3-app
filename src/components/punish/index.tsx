@@ -25,7 +25,7 @@ export default function RunesPunishComponent() {
                     </span>
                     <div className='flex flex-col gap-1 font-mono text-sm'>
                         <span className='font-bold text-base italic'>Rugidor</span>
-                        <span className='italic'>Requer Level <strong>6</strong></span>
+                        <span className='italic'>Requer Nível <strong>6</strong></span>
                         <p>
                             Ao bloquear com Sentidos Fortalecidos ativo, você explode em fúria, causando
                             <span className='text-green-500'> 75% </span> do dano da arma aos inimigos em um raio de
@@ -39,7 +39,7 @@ export default function RunesPunishComponent() {
                     </span>
                     <div className='flex flex-col gap-1 font-mono text-sm'>
                         <span className='font-bold text-base italic'>Celeridade</span>
-                        <span className='italic'>Requer Level <strong>17</strong></span>
+                        <span className='italic'>Requer Nível <strong>17</strong></span>
                         <p>
                             Quando você bloqueia com Sentidos Fortalecidos ativos, você recebe
                             <span className='text-green-500'> 15% </span>de aumento de Velocidade de Ataque por<span className='text-green-500'> 3 </span>segundos.
@@ -52,7 +52,7 @@ export default function RunesPunishComponent() {
                     </span>
                     <div className='flex flex-col gap-1 font-mono text-sm'>
                         <span className='font-bold text-base italic'>Renascimento</span>
-                        <span className='italic'>Requer Level <strong>26</strong></span>
+                        <span className='italic'>Requer Nível <strong>26</strong></span>
                         <p>
                             Quando você bloqueia com Sentidos Fortalecidos ativos, aumenta em
                             <span className='text-green-500'> 12.874 </span>sua regeneração de Vida por<span className='text-green-500'> 2 </span>segundos.
@@ -65,7 +65,7 @@ export default function RunesPunishComponent() {
                     </span>
                     <div className='flex flex-col gap-1 font-mono text-sm'>
                         <span className='font-bold text-base italic'>Contra-ataque</span>
-                        <span className='italic'>Requer Level <strong>45</strong></span>
+                        <span className='italic'>Requer Nível <strong>45</strong></span>
                         <p>
                             Ao bloquear com Sentidos Fortalecidos ativo, você causa dano Sagrado equivalente a
                             <span className='text-green-500'> 140% </span>do dano de arma.
@@ -78,7 +78,7 @@ export default function RunesPunishComponent() {
                     </span>
                     <div className='flex flex-col gap-1 font-mono text-sm'>
                         <span className='font-bold text-base italic'>Fúria</span>
-                        <span className='italic'>Requer Level <strong>52</strong></span>
+                        <span className='italic'>Requer Nível <strong>52</strong></span>
                         <p>
                             Quando você bloqueia com Sentidos Fortalecidos ativos, recebe
                             <span className='text-green-500'> 15% </span>de aumento na Chance de Acerto Crítico no seu próximo ataque.
