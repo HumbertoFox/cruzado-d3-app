@@ -13,14 +13,16 @@ export default function HeaderComponent() {
     const headerLogoRef = useRef(null);
     const headerStartRef = useRef(null);
     const headerHistoryRef = useRef(null);
-    const headerGalleryRef = useRef(null);
+    const headerSkillsRef = useRef(null);
+    const headerSeasonRef = useRef(null);
 
     useEffect(() => {
         const header = headerRef.current;
         const headerLogo = headerLogoRef.current;
         const headerStart = headerStartRef.current;
         const headerHistory = headerHistoryRef.current;
-        const headerGallery = headerGalleryRef.current;
+        const headerSkills = headerSkillsRef.current;
+        const headerSeason = headerSeasonRef.current;
 
         gsap.fromTo(headerLogo, {
             opacity: 0,
@@ -52,7 +54,7 @@ export default function HeaderComponent() {
             delay: 0.5,
             ease: 'power1.in'
         });
-        gsap.fromTo(headerGallery, {
+        gsap.fromTo(headerSkills, {
             opacity: 0,
             x: -300
         }, {
@@ -60,6 +62,16 @@ export default function HeaderComponent() {
             x: 0,
             duration: 1,
             delay: 1,
+            ease: 'power1.in'
+        });
+        gsap.fromTo(headerSeason, {
+            opacity: 0,
+            x: -300
+        }, {
+            opacity: 1,
+            x: 0,
+            duration: 1,
+            delay: 1.5,
             ease: 'power1.in'
         });
 
@@ -106,7 +118,7 @@ export default function HeaderComponent() {
                 ref={headerLogoRef}
             />
             <nav>
-                <ul className='flex gap-3'>
+                <ul className='flex gap-3 text-xs lg:text-base md:text-sm'>
                     <li
                         className='hover:text-amber-700 duration-300 opacity-0'
                         ref={headerStartRef}
@@ -131,13 +143,24 @@ export default function HeaderComponent() {
                     </li>
                     <li
                         className='hover:text-amber-700 duration-300 opacity-0'
-                        ref={headerGalleryRef}
+                        ref={headerSkillsRef}
                     >
                         <Link
                             className='button'
                             href='#skills'
                         >
                             <span>Habilidades</span>
+                        </Link>
+                    </li>
+                    <li
+                        className='hover:text-amber-700 duration-300 opacity-0'
+                        ref={headerSeasonRef}
+                    >
+                        <Link
+                            className='button'
+                            href='#season'
+                        >
+                            <span>Temporada</span>
                         </Link>
                     </li>
                 </ul>
