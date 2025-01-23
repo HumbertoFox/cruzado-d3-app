@@ -123,7 +123,7 @@ export default function ActiveSkillsComponent() {
         });
         gsap.fromTo(activePrimary, {
             opacity: 0,
-            x: 300
+            x: -300
         }, {
             opacity: 1,
             x: 0,
@@ -134,7 +134,7 @@ export default function ActiveSkillsComponent() {
         });
         gsap.fromTo(activeSecondary, {
             opacity: 0,
-            x: 300,
+            x: -300,
             y: 300
         }, {
             opacity: 1,
@@ -174,7 +174,7 @@ export default function ActiveSkillsComponent() {
         });
         gsap.fromTo(activeLaws, {
             opacity: 0,
-            x: 300,
+            x: -300,
             y: -300
         }, {
             opacity: 1,

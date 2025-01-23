@@ -447,7 +447,7 @@ export default function PassiveSkillsComponent() {
         gsap.fromTo(passiveBtn0, {
             opacity: 0,
             y: 300,
-            x: 300
+            x: -300
         }, {
             opacity: 1,
             y: 0,
@@ -510,7 +510,7 @@ export default function PassiveSkillsComponent() {
         gsap.fromTo(passiveBtn5, {
             opacity: 0,
             y: 300,
-            x: 300
+            x: -300
         }, {
             opacity: 1,
             y: 0,
@@ -535,7 +535,7 @@ export default function PassiveSkillsComponent() {
         });
         gsap.fromTo(passiveBtn7, {
             opacity: 0,
-            scale: 1.1
+            scale: 0.5
         }, {
             opacity: 1,
             scale: 1,

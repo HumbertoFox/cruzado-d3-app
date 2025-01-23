@@ -35,7 +35,7 @@ export default function SeasonComponent() {
         });
         gsap.fromTo(seasonImg, {
             opacity: 0,
-            scale: 1.2
+            scale: 0
         }, {
             opacity: 1,
             scale: 1,

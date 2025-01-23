@@ -137,10 +137,10 @@ export default function HistoryComponent() {
         });
         gsap.fromTo(historyVideo, {
             opacity: 0,
-            x: 300
+            scale: 0
         }, {
             opacity: 1,
-            x: 0,
+            scale: 1,
             duration: 1,
             delay: 1.5,
             scrollTrigger: {
