@@ -682,7 +682,7 @@ export default function PassiveSkillsComponent() {
     }, []);
     return (
         <div
-            className='w-2/5 min-h-full px-3 cursor-default'
+            className='w-full lg:w-2/5 min-h-full px-3 cursor-default'
             ref={passiveSkillsRef}
         >
             <h5
@@ -702,9 +702,7 @@ export default function PassiveSkillsComponent() {
                         title={isHeavenlyStrength ? 'Voltar para Passivas' : 'Exibir detalhes da Passiva Força do Paraíso'}
                         onClick={toggleHeavenlyStrength}
                     >
-                        <span>
-                            Força do Paraíso
-                        </span>
+                        <span>{isHeavenlyStrength ? 'Voltar para Passivas' : 'Força do Paraíso'}</span>
                     </button>
                     <div className={`${isHeavenlyStrength ? 'flex' : 'hidden'} flex-col items-center gap-5 mt-8`}>
                         <div className='w-[81px] h-[81px] flex justify-center items-center bg-[url("/assets/trait-64.png")] bg-right-top hover:bg-right-bottom'>
@@ -732,7 +730,7 @@ export default function PassiveSkillsComponent() {
                         title={isFervor ? 'Voltar para Passivas' : 'Exibir detalhes da Passiva Fervor'}
                         onClick={toggleFervor}
                     >
-                        <span>Fervor</span>
+                        <span>{isFervor ? 'Voltar para Passivas' : 'Fervor'}</span>
                     </button>
                     <div className={`${isFervor ? 'flex' : 'hidden'} flex-col items-center gap-5 mt-8`}>
                         <div className='w-[81px] h-[81px] flex justify-center items-center bg-[url("/assets/trait-64.png")] bg-right-top hover:bg-right-bottom'>
@@ -762,7 +760,7 @@ export default function PassiveSkillsComponent() {
                         title={isVigilant ? 'Voltar para Passivas' : 'Exibir detalhes da Passiva Vigilante'}
                         onClick={toggleVigilant}
                     >
-                        <span>Vigilante</span>
+                        <span>{isVigilant ? 'Voltar para Passivas' : 'Vigilante'}</span>
                     </button>
                     <div className={`${isVigilant ? 'flex' : 'hidden'} flex-col items-center gap-5 mt-8`}>
                         <div className='w-[81px] h-[81px] flex justify-center items-center bg-[url("/assets/trait-64.png")] bg-right-top hover:bg-right-bottom'>
@@ -790,7 +788,7 @@ export default function PassiveSkillsComponent() {
                         title={isRighteousness ? 'Voltar para Passivas' : 'Exibir detalhes da Passiva Retidão'}
                         onClick={toggleRighteousness}
                     >
-                        <span>Retidão</span>
+                        <span>{isRighteousness ? 'Voltar para Passivas' : 'Retidão'}</span>
                     </button>
                     <div className={`${isRighteousness ? 'flex' : 'hidden'} flex-col items-center gap-5 mt-8`}>
                         <div className='w-[81px] h-[81px] flex justify-center items-center bg-[url("/assets/trait-64.png")] bg-right-top hover:bg-right-bottom'>
@@ -818,7 +816,7 @@ export default function PassiveSkillsComponent() {
                         title={isInsurmountable ? 'Voltar para Passivas' : 'Exibir detalhes da Passiva Intransponível'}
                         onClick={toggleInsurmountable}
                     >
-                        <span>Intransponível</span>
+                        <span>{isInsurmountable ? 'Voltar para Passivas' : 'Intransponível'}</span>
                     </button>
                     <div className={`${isInsurmountable ? 'flex' : 'hidden'} flex-col items-center gap-5 mt-8`}>
                         <div className='w-[81px] h-[81px] flex justify-center items-center bg-[url("/assets/trait-64.png")] bg-right-top hover:bg-right-bottom'>
@@ -845,7 +843,7 @@ export default function PassiveSkillsComponent() {
                         title={isFanaticism ? 'Voltar para Passivas' : 'Exibir detalhes da Passiva Fanatismp'}
                         onClick={toggleFanaticism}
                     >
-                        <span>Fanatismo</span>
+                        <span>{isFanaticism ? 'Voltar para Passivas' : 'Fanatismo'}</span>
                     </button>
                     <div className={`${isFanaticism ? 'flex' : 'hidden'} flex-col items-center gap-5 mt-8`}>
                         <div className='w-[81px] h-[81px] flex justify-center items-center bg-[url("/assets/trait-64.png")] bg-right-top hover:bg-right-bottom'>
@@ -874,7 +872,7 @@ export default function PassiveSkillsComponent() {
                         title={isIndestructible ? 'Voltar para Passivas' : 'Exibir detalhes da Passiva Indestrutível'}
                         onClick={toggleIndestructible}
                     >
-                        <span>Indestrutível</span>
+                        <span>{isIndestructible ? 'Voltar para Passivas' : 'Indestrutível'}</span>
                     </button>
                     <div className={`${isIndestructible ? 'flex' : 'hidden'} flex-col items-center gap-5 mt-8`}>
                         <div className='w-[81px] h-[81px] flex justify-center items-center bg-[url("/assets/trait-64.png")] bg-right-top hover:bg-right-bottom'>
@@ -906,7 +904,7 @@ export default function PassiveSkillsComponent() {
                         title={isHolyCause ? 'Voltar para Passivas' : 'Exibir detalhes da Passiva Causa Sagrada'}
                         onClick={toggleHolyCause}
                     >
-                        <span>Causa Sagrada</span>
+                        <span>{isHolyCause ? 'Voltar para Passivas' : 'Causa Sagrada'}</span>
                     </button>
                     <div className={`${isHolyCause ? 'flex' : 'hidden'} flex-col items-center gap-5 mt-8`}>
                         <div className='w-[81px] h-[81px] flex justify-center items-center bg-[url("/assets/trait-64.png")] bg-right-top hover:bg-right-bottom'>
@@ -936,7 +934,7 @@ export default function PassiveSkillsComponent() {
                         title={isWrathful ? 'Voltar para Passivas' : 'Exibir detalhes da Passiva Irado'}
                         onClick={toggleWrathful}
                     >
-                        <span>Irado</span>
+                        <span>{isWrathful ? 'Voltar para Passivas' : 'Irado'}</span>
                     </button>
                     <div className={`${isWrathful ? 'flex' : 'hidden'} flex-col items-center gap-5 mt-8`}>
                         <div className='w-[81px] h-[81px] flex justify-center items-center bg-[url("/assets/trait-64.png")] bg-right-top hover:bg-right-bottom'>
@@ -966,7 +964,7 @@ export default function PassiveSkillsComponent() {
                         title={isDivineFortress ? 'Voltar para Passivas' : 'Exibir detalhes da Passiva Fortaleza Divina'}
                         onClick={toggleDivineFortress}
                     >
-                        <span>Fortaleza Divina</span>
+                        <span>{isDivineFortress ? 'Voltar para Passivas' : 'Fortaleza Divina'}</span>
                     </button>
                     <div className={`${isDivineFortress ? 'flex' : 'hidden'} flex-col items-center gap-5 mt-8`}>
                         <div className='w-[81px] h-[81px] flex justify-center items-center bg-[url("/assets/trait-64.png")] bg-right-top hover:bg-right-bottom'>
@@ -995,7 +993,7 @@ export default function PassiveSkillsComponent() {
                         title={isLordCommander ? 'Voltar para Passivas' : 'Exibir detalhes da Passiva Lorde Comandante'}
                         onClick={toggleLordCommander}
                     >
-                        <span>Lorde Comandante</span>
+                        <span>{isLordCommander ? 'Voltar para Passivas' : 'Lorde Comandante'}</span>
                     </button>
                     <div className={`${isLordCommander ? 'flex' : 'hidden'} flex-col items-center gap-5 mt-8`}>
                         <div className='w-[81px] h-[81px] flex justify-center items-center bg-[url("/assets/trait-64.png")] bg-right-top hover:bg-right-bottom'>
@@ -1025,7 +1023,7 @@ export default function PassiveSkillsComponent() {
                         title={isHoldYourGround ? 'Voltar para Passivas' : 'Exibir detalhes da Passiva Manter Posição'}
                         onClick={toggleHoldYourGround}
                     >
-                        <span>Manter Posição</span>
+                        <span>{isHoldYourGround ? 'Voltar para Passivas' : 'Manter Posição'}</span>
                     </button>
                     <div className={`${isHoldYourGround ? 'flex' : 'hidden'} flex-col items-center gap-5 mt-8`}>
                         <div className='w-[81px] h-[81px] flex justify-center items-center bg-[url("/assets/trait-64.png")] bg-right-top hover:bg-right-bottom'>
@@ -1054,7 +1052,7 @@ export default function PassiveSkillsComponent() {
                         title={isLongArmoftheLaw ? 'Voltar para Passivas' : 'Exibir detalhes da Passiva O Longo Braço da Lei'}
                         onClick={toggleLongArmoftheLaw}
                     >
-                        <span>O Longo Braço da Lei</span>
+                        <span>{isLongArmoftheLaw ? 'Voltar para Passivas' : 'O Longo Braço da Lei'}</span>
                     </button>
                     <div className={`${isLongArmoftheLaw ? 'flex' : 'hidden'} flex-col items-center gap-5 mt-8`}>
                         <div className='w-[81px] h-[81px] flex justify-center items-center bg-[url("/assets/trait-64.png")] bg-right-top hover:bg-right-bottom'>
@@ -1083,7 +1081,7 @@ export default function PassiveSkillsComponent() {
                         title={isIronMaiden ? 'Voltar para Passivas' : 'Exibir detalhes da Passiva Dama de Ferro'}
                         onClick={toggleIronMaiden}
                     >
-                        <span>Dama de Ferro</span>
+                        <span>{isIronMaiden ? 'Voltar para Passivas' : 'Dama de Ferro'}</span>
                     </button>
                     <div className={`${isIronMaiden ? 'flex' : 'hidden'} flex-col items-center gap-5 mt-8`}>
                         <div className='w-[81px] h-[81px] flex justify-center items-center bg-[url("/assets/trait-64.png")] bg-right-top hover:bg-right-bottom'>
@@ -1110,7 +1108,7 @@ export default function PassiveSkillsComponent() {
                         title={isRenewal ? 'Voltar para Passivas' : 'Exibir detalhes da Passiva Renovação'}
                         onClick={toggleRenewal}
                     >
-                        <span>Renovação</span>
+                        <span>{isRenewal ? 'Voltar para Passivas' : 'Renovação'}</span>
                     </button>
                     <div className={`${isRenewal ? 'flex' : 'hidden'} flex-col items-center gap-5 mt-8`}>
                         <div className='w-[81px] h-[81px] flex justify-center items-center bg-[url("/assets/trait-64.png")] bg-right-top hover:bg-right-bottom'>
@@ -1137,7 +1135,7 @@ export default function PassiveSkillsComponent() {
                         title={isFinery ? 'Voltar para Passivas' : 'Exibir detalhes da Passiva Veste de Gala'}
                         onClick={toggleFinery}
                     >
-                        <span>Veste de Gala</span>
+                        <span>{isFinery ? 'Voltar para Passivas' : 'Veste de Gala'}</span>
                     </button>
                     <div className={`${isFinery ? 'flex' : 'hidden'} flex-col items-center gap-5 mt-8`}>
                         <div className='w-[81px] h-[81px] flex justify-center items-center bg-[url("/assets/trait-64.png")] bg-right-top hover:bg-right-bottom'>
@@ -1166,7 +1164,7 @@ export default function PassiveSkillsComponent() {
                         title={isBlunt ? 'Voltar para Passivas' : 'Exibir detalhes da Passiva Bruto'}
                         onClick={toggleBlunt}
                     >
-                        <span>Bruto</span>
+                        <span>{isBlunt ? 'Voltar para Passivas' : 'Bruto'}</span>
                     </button>
                     <div className={`${isBlunt ? 'flex' : 'hidden'} flex-col items-center gap-5 mt-8`}>
                         <div className='w-[81px] h-[81px] flex justify-center items-center bg-[url("/assets/trait-64.png")] bg-right-top hover:bg-right-bottom'>
@@ -1193,7 +1191,7 @@ export default function PassiveSkillsComponent() {
                         title={isToweringShield ? 'Voltar para Passivas' : 'Exibir detalhes da Passiva Escudo Altaneiro'}
                         onClick={toggleToweringShield}
                     >
-                        <span>Escudo Altaneiro</span>
+                        <span>{isToweringShield ? 'Voltar para Passivas' : 'Escudo Altaneiro'}</span>
                     </button>
                     <div className={`${isToweringShield ? 'flex' : 'hidden'} flex-col items-center gap-5 mt-8`}>
                         <div className='w-[81px] h-[81px] flex justify-center items-center bg-[url("/assets/trait-64.png")] bg-right-top hover:bg-right-bottom'>
