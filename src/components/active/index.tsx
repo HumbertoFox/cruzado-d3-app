@@ -229,7 +229,7 @@ export default function ActiveSkillsComponent() {
                         <div className='flex flex-col'>
                             <div className='flex flex-col md:flex-row gap-5 text-center md:text-start pt-4 md:pt-0 pb-4'>
                                 <Image
-                                    className='mx-auto md:my-auto'
+                                    className='mx-auto my-0 md:my-auto md:mx-0'
                                     src={'/assets/skills/x1_crusader_punish.png'}
                                     alt='Habilidade Punição'
                                     width={64}
@@ -253,7 +253,7 @@ export default function ActiveSkillsComponent() {
                         <div className='flex flex-col'>
                             <div className='flex flex-col md:flex-row gap-5 text-center md:text-start pt-4 md:pt-0 pb-4'>
                                 <Image
-                                    className='mx-auto md:my-auto'
+                                    className='mx-auto my-0 md:my-auto md:mx-0'
                                     src={'/assets/skills/x1_crusader_slash.png'}
                                     alt='Habilidade Talho'
                                     width={64}
@@ -271,7 +271,7 @@ export default function ActiveSkillsComponent() {
                         <div className='flex flex-col'>
                             <div className='flex flex-col md:flex-row gap-5 text-center md:text-start pt-4 md:pt-0 pb-4'>
                                 <Image
-                                    className='mx-auto md:my-auto'
+                                    className='mx-auto my-0 md:my-auto md:mx-0'
                                     src={'/assets/skills/x1_crusader_smite.png'}
                                     alt='Habilidade Castigar'
                                     width={64}
@@ -294,7 +294,7 @@ export default function ActiveSkillsComponent() {
                         <div className='flex flex-col'>
                             <div className='flex flex-col md:flex-row gap-5 text-center md:text-start pt-4 md:pt-0 pb-4'>
                                 <Image
-                                    className='mx-auto md:my-auto'
+                                    className='mx-auto my-0 md:my-auto md:mx-0'
                                     src={'/assets/skills/x1_crusader_justice.png'}
                                     alt='Habilidade Justiça'
                                     width={64}
@@ -327,7 +327,7 @@ export default function ActiveSkillsComponent() {
                         <div className='flex flex-col'>
                             <div className='flex flex-col md:flex-row gap-5 text-center md:text-start pt-4 md:pt-0 pb-4'>
                                 <Image
-                                    className='mx-auto md:my-auto'
+                                    className='mx-auto my-0 md:my-auto md:mx-0'
                                     src={'/assets/skills/x1_crusader_shieldbash2.png'}
                                     alt='Habilidade Esmagamento com Escudo'
                                     width={64}
@@ -350,7 +350,7 @@ export default function ActiveSkillsComponent() {
                         <div className='flex flex-col'>
                             <div className='flex flex-col md:flex-row gap-5 text-center md:text-start pt-4 md:pt-0 pb-4'>
                                 <Image
-                                    className='mx-auto md:my-auto'
+                                    className='mx-auto my-0 md:my-auto md:mx-0'
                                     src={'/assets/skills/x1_crusader_sweepattack.png'}
                                     alt='Habilidade Ataque Amplo'
                                     width={64}
@@ -372,7 +372,7 @@ export default function ActiveSkillsComponent() {
                         <div className='flex flex-col'>
                             <div className='flex flex-col md:flex-row gap-5 text-center md:text-start pt-4 md:pt-0 pb-4'>
                                 <Image
-                                    className='mx-auto md:my-auto'
+                                    className='mx-auto my-0 md:my-auto md:mx-0'
                                     src={'/assets/skills/x1_crusader_blessedhammer.png'}
                                     alt='Habilidade Martelo Abençoado'
                                     width={64}
@@ -393,7 +393,7 @@ export default function ActiveSkillsComponent() {
                         <div className='flex flex-col'>
                             <div className='flex flex-col md:flex-row gap-5 text-center md:text-start pt-4 md:pt-0 pb-4'>
                                 <Image
-                                    className='mx-auto md:my-auto'
+                                    className='mx-auto my-0 md:my-auto md:mx-0'
                                     src={'/assets/skills/x1_crusader_blessedshield.png'}
                                     alt='Habilidade Escudo Abençoado'
                                     width={64}
@@ -416,7 +416,7 @@ export default function ActiveSkillsComponent() {
                         <div className='flex flex-col'>
                             <div className='flex flex-col md:flex-row gap-5 text-center md:text-start pt-4 md:pt-0 pb-4'>
                                 <Image
-                                    className='mx-auto md:my-auto'
+                                    className='mx-auto my-0 md:my-auto md:mx-0'
                                     src={'/assets/skills/x1_crusader_fistoftheheavens.png'}
                                     alt='Habilidade Punho do Paraíso'
                                     width={64}
@@ -454,7 +454,7 @@ export default function ActiveSkillsComponent() {
                         <div className='flex flex-col'>
                             <div className='flex flex-col md:flex-row gap-5 text-center md:text-start pt-4 md:pt-0 pb-4'>
                                 <Image
-                                    className='mx-auto md:my-auto'
+                                    className='mx-auto my-0 md:my-auto md:mx-0'
                                     src={'/assets/skills/x1_crusader_shieldglare.png'}
                                     alt='Habilidade Escudo Reluzente'
                                     width={64}
@@ -476,7 +476,7 @@ export default function ActiveSkillsComponent() {
                         <div className='flex flex-col'>
                             <div className='flex flex-col md:flex-row gap-5 text-center md:text-start pt-4 md:pt-0 pb-4'>
                                 <Image
-                                    className='mx-auto md:my-auto'
+                                    className='mx-auto my-0 md:my-auto md:mx-0'
                                     src={'/assets/skills/x1_crusader_ironskin.png'}
                                     alt='Habilidade Pele de Ferro'
                                     width={64}
@@ -497,7 +497,7 @@ export default function ActiveSkillsComponent() {
                         <div className='flex flex-col'>
                             <div className='flex flex-col md:flex-row gap-5 text-center md:text-start pt-4 md:pt-0 pb-4'>
                                 <Image
-                                    className='mx-auto md:my-auto'
+                                    className='mx-auto my-0 md:my-auto md:mx-0'
                                     src={'/assets/skills/x1_crusader_consecration.png'}
                                     alt='Habilidade Consagração'
                                     width={64}
@@ -519,7 +519,7 @@ export default function ActiveSkillsComponent() {
                         <div className='flex flex-col'>
                             <div className='flex flex-col md:flex-row gap-5 text-center md:text-start pt-4 md:pt-0 pb-4'>
                                 <Image
-                                    className='mx-auto md:my-auto'
+                                    className='mx-auto my-0 md:my-auto md:mx-0'
                                     src={'/assets/skills/x1_crusader_judgment.png'}
                                     alt='Habilidade Jugamento'
                                     width={64}
@@ -555,7 +555,7 @@ export default function ActiveSkillsComponent() {
                         <div className='flex flex-col'>
                             <div className='flex flex-col md:flex-row gap-5 text-center md:text-start pt-4 md:pt-0 pb-4'>
                                 <Image
-                                    className='mx-auto md:my-auto'
+                                    className='mx-auto my-0 md:my-auto md:mx-0'
                                     src={'/assets/skills/x1_crusader_provoke.png'}
                                     alt='Habilidade Provocar'
                                     width={64}
@@ -578,7 +578,7 @@ export default function ActiveSkillsComponent() {
                         <div className='flex flex-col'>
                             <div className='flex flex-col md:flex-row gap-5 text-center md:text-start pt-4 md:pt-0 pb-4'>
                                 <Image
-                                    className='mx-auto md:my-auto'
+                                    className='mx-auto my-0 md:my-auto md:mx-0'
                                     src={'/assets/skills/x1_crusader_steedcharge.png'}
                                     alt='Habilidade Investida com Corcel'
                                     width={64}
@@ -599,7 +599,7 @@ export default function ActiveSkillsComponent() {
                         <div className='flex flex-col'>
                             <div className='flex flex-col md:flex-row gap-5 text-center md:text-start pt-4 md:pt-0 pb-4'>
                                 <Image
-                                    className='mx-auto md:my-auto'
+                                    className='mx-auto my-0 md:my-auto md:mx-0'
                                     src={'/assets/skills/x1_crusader_condemn.png'}
                                     alt='Habilidade Condenar'
                                     width={64}
@@ -621,7 +621,7 @@ export default function ActiveSkillsComponent() {
                         <div className='flex flex-col'>
                             <div className='flex flex-col md:flex-row gap-5 text-center md:text-start pt-4 md:pt-0 pb-4'>
                                 <Image
-                                    className='mx-auto md:my-auto'
+                                    className='mx-auto my-0 md:my-auto md:mx-0'
                                     src={'/assets/skills/x1_crusader_phalanx3.png'}
                                     alt='Habilidade Falange'
                                     width={64}
@@ -657,7 +657,7 @@ export default function ActiveSkillsComponent() {
                         <div className='flex flex-col'>
                             <div className='flex flex-col md:flex-row gap-5 text-center md:text-start pt-4 md:pt-0 pb-4'>
                                 <Image
-                                    className='mx-auto md:my-auto'
+                                    className='mx-auto my-0 md:my-auto md:mx-0'
                                     src={'/assets/skills/x1_crusader_lawsofvalor2.png'}
                                     alt='Habilidade Leis da Bravura'
                                     width={64}
@@ -681,7 +681,7 @@ export default function ActiveSkillsComponent() {
                         <div className='flex flex-col'>
                             <div className='flex flex-col md:flex-row gap-5 text-center md:text-start pt-4 md:pt-0 pb-4'>
                                 <Image
-                                    className='mx-auto md:my-auto'
+                                    className='mx-auto my-0 md:my-auto md:mx-0'
                                     src={'/assets/skills/x1_crusader_lawsofjustice2.png'}
                                     alt='Habilidade Leis da Justiça'
                                     width={64}
@@ -706,7 +706,7 @@ export default function ActiveSkillsComponent() {
                         <div className='flex flex-col'>
                             <div className='flex flex-col md:flex-row gap-5 text-center md:text-start pt-4 md:pt-0 pb-4'>
                                 <Image
-                                    className='mx-auto md:my-auto'
+                                    className='mx-auto my-0 md:my-auto md:mx-0'
                                     src={'/assets/skills/x1_crusader_lawsofhope2.png'}
                                     alt='Habilidade Leis da Esperança'
                                     width={64}
@@ -746,7 +746,7 @@ export default function ActiveSkillsComponent() {
                         <div className='flex flex-col'>
                             <div className='flex flex-col md:flex-row gap-5 text-center md:text-start pt-4 md:pt-0 pb-4'>
                                 <Image
-                                    className='mx-auto md:my-auto'
+                                    className='mx-auto my-0 md:my-auto md:mx-0'
                                     src={'/assets/skills/x1_crusader_fallingsword.png'}
                                     alt='Habilidade Espada Cadente'
                                     width={64}
@@ -769,7 +769,7 @@ export default function ActiveSkillsComponent() {
                         <div className='flex flex-col'>
                             <div className='flex flex-col md:flex-row gap-5 text-center md:text-start pt-4 md:pt-0 pb-4'>
                                 <Image
-                                    className='mx-auto md:my-auto'
+                                    className='mx-auto my-0 md:my-auto md:mx-0'
                                     src={'/assets/skills/x1_crusader_akaratschampion.png'}
                                     alt='Habilidade Campeão de Akarat'
                                     width={64}
@@ -790,7 +790,7 @@ export default function ActiveSkillsComponent() {
                         <div className='flex flex-col'>
                             <div className='flex flex-col md:flex-row gap-5 text-center md:text-start pt-4 md:pt-0 pb-4'>
                                 <Image
-                                    className='mx-auto md:my-auto'
+                                    className='mx-auto my-0 md:my-auto md:mx-0'
                                     src={'/assets/skills/x1_crusader_heavensfury3.png'}
                                     alt='Habilidade Fúria do Paraíso'
                                     width={64}
@@ -811,7 +811,7 @@ export default function ActiveSkillsComponent() {
                         <div className='flex flex-col'>
                             <div className='flex flex-col md:flex-row gap-5 text-center md:text-start pt-4 md:pt-0 pb-4'>
                                 <Image
-                                    className='mx-auto md:my-auto'
+                                    className='mx-auto my-0 md:my-auto md:mx-0'
                                     src={'/assets/skills/x1_crusader_bombardment.png'}
                                     alt='Habilidade Bombardeio'
                                     width={64}
